@@ -1,24 +1,20 @@
 <template>
-    <Hero />
-    <div class="bg-gray-800 text-center text-white">
-        <div class="text-4xl font-bold">What I Do</div>
-    </div>
-    <section
+  <section
   class="container mx-auto flex flex-col items-center px-12 py-28 sm:flex-row"
 >
   <img
     alt="Security"
-    class="mb-10 h-24 w-full pr-16 pl-16 sm:mb-0 sm:h-fit sm:w-1/2 sm:pr-24 sm:pl-0"
-    src="C:\Users\myfri\Desktop\Nuxt\EsterlineAudio\components\images\Mixing.png"
+    class="mb-10 h-24 w-full pr-16 pl-16 dark:contrast-200 dark:invert sm:mb-0 sm:h-fit sm:w-1/2 sm:pr-24 sm:pl-0"
+    src="/illustrations/undraw_security_on_re_e491.svg"
   />
   <div class="mr-4 w-full text-center sm:w-1/2 sm:text-left">
     <h2
       class="mb-4 text-3xl font-bold leading-tight dark:text-slate-50 md:text-4xl"
     >
-      Industry Experience
+      Trusted and secured
     </h2>
     <p class="leading-relaxed text-slate-700 dark:text-slate-400">
-        I have experience with the latest industry standards of mixing  and mastering audio for film, television, video.
+      Each transaction is guarded by advanced and certified security system.
     </p>
     <a
       class="group relative mx-auto mt-8 inline-block font-semibold text-slate-900 underline decoration-violet-300 decoration-2 underline-offset-8 transition hover:decoration-slate-700 dark:text-slate-200 dark:hover:decoration-slate-200 sm:mx-0"
@@ -50,17 +46,18 @@
 >
   <img
     alt="Security"
-    class="mb-10 h-24 w-full pr-16 pl-16 sm:mb-0 sm:h-fit sm:w-1/2 sm:pl-24 sm:pr-0"
-    src="C:\Users\myfri\Desktop\Nuxt\EsterlineAudio\components\images\Mixing.png"
+    class="mb-10 h-24 w-full pr-16 pl-16 dark:contrast-200 dark:invert sm:mb-0 sm:h-fit sm:w-1/2 sm:pl-24 sm:pr-0"
+    src="/illustrations/undraw_fingerprint_re_uf3f.svg"
   />
   <div class="mr-4 w-full text-center sm:w-1/2 sm:text-left">
     <h2
       class="mb-4 text-3xl font-bold leading-tight dark:text-slate-50 md:text-4xl"
     >
-      Industry Standard Experience
+      Multi layer security
     </h2>
     <p class="leading-relaxed text-slate-700 dark:text-slate-400">
-      I have experience with the latest industry standards of mixing  and mastering audio for film, television, video.
+      Support fingerprint and face recognition for any transaction. More options
+      coming soon.
     </p>
     <a
       class="group relative mx-auto mt-8 inline-block font-semibold text-slate-900 underline decoration-violet-300 decoration-2 underline-offset-8 transition hover:decoration-slate-700 dark:text-slate-200 dark:hover:decoration-slate-200 sm:mx-0"
@@ -92,17 +89,18 @@
 >
   <img
     alt="Security"
-    class="mb-10 h-24 w-full pr-16 pl-16 sm:mb-0 sm:h-fit sm:w-1/2 sm:pr-24 sm:pl-0"
-    src="C:\Users\myfri\Desktop\Nuxt\EsterlineAudio\components\images\Headshot.png"
+    class="mb-10 h-24 w-full pr-16 pl-16 dark:contrast-200 dark:invert sm:mb-0 sm:h-fit sm:w-1/2 sm:pr-24 sm:pl-0"
+    src="/illustrations/undraw_all_the_data_re_hh4w.svg"
   />
   <div class="mr-4 w-full text-center sm:w-1/2 sm:text-left">
     <h2
       class="mb-4 text-3xl font-bold leading-tight dark:text-slate-50 md:text-4xl"
     >
-    Personalized Service for Every Project
+      Meaningful insight
     </h2>
     <p class="leading-relaxed text-slate-700 dark:text-slate-400">
-        I'm a fresh face in the audio world, eager to dedicate all my energy to your project. With a focus on personalized service, I'm here to cater to your specific needs. While I'm building my portfolio, your project will receive my full attention and commitment. Let's create something great together!
+      Visualize transactions with multiple chart option to get insight as you
+      need.
     </p>
   </div>
 </section>
