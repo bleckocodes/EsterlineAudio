@@ -12,7 +12,7 @@
             <img
                 alt="Trusted and secured"
                 class="mx-auto mb-4 h-16"
-                src="/components/images/EAPSFullW.png"
+                src=""
             />
             <h2
                 class="mb-2 text-xl font-bold leading-tight dark:text-slate-50 md:text-xl"
@@ -54,7 +54,7 @@
             <img
                 alt="Multi layer security"
                 class="mx-auto mb-4 h-16"
-                src="/components/images/EAPSFullW.png"
+                src=""
             />
             <h2
                 class="mb-2 text-xl font-bold leading-tight dark:text-slate-50 md:text-xl"
@@ -97,7 +97,7 @@
             <img
                 alt="Meaningful insight"
                 class="mx-auto mb-4 h-16"
-                src="/components/images/EAPSFullW.png"
+                src=""
             />
             <h2
                 class="mb-2 text-xl font-bold leading-tight dark:text-slate-50 md:text-xl"
