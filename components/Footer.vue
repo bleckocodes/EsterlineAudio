@@ -1,9 +1,9 @@
 <template>
    <!-- Top Vertical spacing -->
   
-   <footer class="bg-gray-900 text-center text-white mt-8 h-40">
+   <footer class="bg-gray-900 text-center text-white p-5">
       
-    <div class="my-20 bg-red-600"></div>
+    <div class="my-20 bg-gray-900 "></div>
       <!-- Grid container -->
       <div class="container p-4 pb-0">
         <!-- Section: Social media -->
@@ -32,7 +32,7 @@
       <div class="my-20"></div>
   
       <!-- Copyright -->
-      <div class="text-center p-3 justify-end">
+      <div class="text-center pb-16 justify-end">
         © 2024 Copyright:
         <a class="text-white" href="https://mdbootstrap.com/">Esterline Audio</a>
       </div>

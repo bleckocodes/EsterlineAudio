@@ -1,11 +1,10 @@
 <template class="bg-gray-800">
     <Hero />
     <div class="bg-gray-800 text-center text-white">
-        <div class="text-4xl font-bold pt-10">What I Do</div>
+        <div class="text-5xl font-bold pt-10 pb-10">Why You Should Work with Me</div>
     </div>
-    <section
-  class="container mx-auto flex flex-col items-center px-12 py-28 sm:flex-row"
->
+    
+    <section class="container mx-auto flex flex-col items-center px-12 py-28 sm:flex-row" >
   <img
     alt="Security"
     class="mb-10 h-24 w-full pr-16 pl-16 sm:mb-0 sm:h-fit sm:w-1/2 sm:pr-24 sm:pl-0"
@@ -22,9 +21,9 @@
     </p>
     <a
       class="group relative mx-auto mt-8 inline-block font-semibold text-slate-900 underline decoration-violet-300 decoration-2 underline-offset-8 transition hover:decoration-slate-700 dark:text-slate-200 dark:hover:decoration-slate-200 sm:mx-0"
-      href="#"
+      href="https://esterline-audio.vercel.app/Services"
     >
-      View certifications
+      View My Work
       
       <svg
         preserveAspectRatio="xMidYMid meet"

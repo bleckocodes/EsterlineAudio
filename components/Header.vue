@@ -1,13 +1,13 @@
 <template>
   <div class="height-auto bg-verdun-green-400 text-base text-white">
-    <header class=" bg-verdun-green-400 text-white mx-auto flex w-full items-center justify-between py-4 px-6">
+    <header class="bg-verdun-green-400 text-white mx-auto flex w-full items-center justify-between py-4 px-6">
       <nuxt-link to="/">
         <div class="w-full text-center text-lg font-bold sm:w-fit sm:text-left">
           <span class="text-40 white-500">Esterline Audio Production Services</span>
         </div>
       </nuxt-link>
 
-      <nav class="hidden text-base sm:block"> 
+      <nav class="hidden text-base sm:block">
         <ul class="flex items-center space-x-2">
           <li class="group relative">
             <nuxt-link 
@@ -50,8 +50,8 @@
                 </a>
               </li>
             </ul>
-          </li>
-          <li class="group relative">
+              </li>
+                <li class="group relative">
             <nuxt-link 
               class="block whitespace-nowrap px-3 py-2 text-lg font-semibold text-slate-900 no-underline transition hover:text-slate-400 dark:hover:text-slate-50" 
               to="About">
@@ -100,7 +100,7 @@
               <svg
                 preserveAspectRatio="xMidYMid meet"
                 viewBox="0 0 24 24"
-                width="1.2em"
+               width="1.2em"
                 height="1.2em"
               >
                 <path
@@ -115,14 +115,13 @@
             </button>
           </li>
           <li class="group relative w-full overflow-x-visible text-right">
-            <a
+            <nuxt-link
               class="mx-4 block whitespace-nowrap px-3 py-2 text-lg font-semibold text-slate-900 no-underline transition hover:text-slate-400 dark:hover:text-slate-50"
-              href="/"
+              to="/"
             >
               Home
-            </a>
+            </nuxt-link>
           </li>
-          <!-- Other navigation items remain unchanged -->
         </ul>
       </nav>
     </header>
@@ -144,8 +143,6 @@
       color: #d1d5db; /* Adjust as needed */
     }
   }
-
-  
 
   /* Hover effect on navigation links */
   nav ul li a:hover {
