@@ -4,12 +4,12 @@
       <img
         alt="Background Image"
         class="absolute inset-0 w-full h-full object-cover"
-        src="/components/images/trees.png"
+        src="EsterlineAudio/components/images/trees.png"
       />
       <img
         alt="EAPSFullW"
         class="relative z-10 w-full h-full object-cover"
-        src="/components/images/EAPSFullW.png"
+        src="EsterlineAudio/components/images/EAPSFullW.png"
       />
     </div>
     <div class="mr-4 w-full text-center sm:w-1/2 sm:text-left">
