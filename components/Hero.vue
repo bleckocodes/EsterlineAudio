@@ -4,12 +4,12 @@
       <img
         alt="Hanging out with friends"
         class="absolute inset-0 w-full h-full object-cover"
-        src="C:/Users/myfri/Desktop/Nuxt/EsterlineAudio/components/images/trees.png"
+        src="/components/images/trees.png"
       />
       <img
         alt="EAPSFullW"
         class="relative z-10 w-full h-full object-cover"
-        src="C:/Users/myfri/Desktop/Nuxt/EsterlineAudio/components/images/EAPSFullW.png"
+        src="/components/images/EAPSFullW.png"
       />
     </div>
     <div class="mr-4 w-full text-center sm:w-1/2 sm:text-left">

@@ -36,7 +36,7 @@
               <li>
                 <a
                   class="undefined block whitespace-nowrap px-3 py-2 text-sm font-semibold text-white no-underline transition dark:text-slate-50 hover:text-verdun-green-400 dark:hover:text-verdun-green-400"
-                  href="/About"
+                  href="/services"
                 >
                   Digital marketing
                 </a>
