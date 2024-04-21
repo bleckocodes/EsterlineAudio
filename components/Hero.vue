@@ -1,8 +1,7 @@
 <template>
-<section class="w-fill mx-auto h-200 flex flex-row items-center bg-image pt-32 pb-16 bg-image px-8 ">
+<section class="w-fill mx-auto flex flex-row h-200 items-center bg-image pt-44 pb-24 bg-image px-8 ">
     <!-- Image container with background -->
-
-      <div class="mr-4 w-full text-center sm:w-1/2 sm:text-left bg-black px-5 py-5 rounded-md bg-opacity-75 text-opacity-0">
+      <div class="mr-4 w-fit h-inherit text-center sm:w-1/2 sm:text-left bg-black px-5 py-5 rounded-md bg-opacity-75 text-opacity-0">
         <h1 class="mb-6 text-3xl font-bold leading-tight text-white md:text-4xl">
           Welcome to Esterline Audio!
         </h1>
@@ -82,6 +81,9 @@
               </button>
             </nuxt-link>
           </div>
+      </div>
+      <div class="mr-4 w-fit h-inherit text-center sm:w-1/2 sm:text-left bg-black px-5 py-5 rounded-md bg-opacity-75 text-opacity-0">
+        <img src="@/components/images/EAPSFullW.png" alt="">
       </div>
     <!-- Text container -->
     
