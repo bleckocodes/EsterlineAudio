@@ -4,7 +4,7 @@
       <img
         alt="Background Image"
         class="absolute inset-0 w-full h-full object-cover"
-        src="EsterlineAudio/components/images/trees.png"
+        src="EsterlineAudio/components/images/Trees.png"
       />
       <img
         alt="EAPSFullW"
