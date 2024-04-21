@@ -28,7 +28,7 @@
               <li>
                 <a
                   class="undefined block whitespace-nowrap px-3 py-2 text-sm font-semibold text-white no-underline transition dark:text-slate-50 hover:text-verdun-green-400 dark:hover:text-verdun-green-400"
-                  href="/services/web-development"
+                  href="/services"
                 >
                   Web development
                 </a>
@@ -36,7 +36,7 @@
               <li>
                 <a
                   class="undefined block whitespace-nowrap px-3 py-2 text-sm font-semibold text-white no-underline transition dark:text-slate-50 hover:text-verdun-green-400 dark:hover:text-verdun-green-400"
-                  href="/services/digital-marketing"
+                  href="/About"
                 >
                   Digital marketing
                 </a>
@@ -44,7 +44,7 @@
               <li>
                 <a
                   class="undefined block whitespace-nowrap px-3 py-2 text-sm font-semibold text-white no-underline transition dark:text-slate-50 hover:text-verdun-green-400 dark:hover:text-verdun-green-400"
-                  href="/services/brand-strategy"
+                  href="/services"
                 >
                   Brand strategy
                 </a>
