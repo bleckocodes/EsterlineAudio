@@ -161,7 +161,7 @@
           <li class="group relative w-full overflow-x-visible text-right">
             <a
               class="mx-4 block whitespace-nowrap px-3 py-2 text-sm font-semibold text-slate-900 no-underline transition hover:text-slate-400 dark:hover:text-slate-50"
-              href="/about"
+              href="/About"
             >
               About
             </a>
@@ -169,7 +169,7 @@
           <li class="group relative w-full overflow-x-visible text-right">
             <a
               class="mx-4 block whitespace-nowrap px-3 py-2 text-sm font-semibold text-slate-900 no-underline transition hover:text-slate-400 dark:hover:text-slate-50"
-              href="/contact"
+              href="pages/Contact"
             >
               Contact
             </a>

@@ -2,14 +2,14 @@
   <section class="container mx-auto flex flex-col items-center px-8 pb-36 sm:flex-row-reverse sm:px-12">
     <div class="relative mb-8 w-full sm:mb-0 sm:w-1/2 sm:pl-4 md:pl-16">
       <img
-        alt="Hanging out with friends"
+        alt="Background Image"
         class="absolute inset-0 w-full h-full object-cover"
-        src=""
+        src="/components/images/trees.png"
       />
       <img
         alt="EAPSFullW"
         class="relative z-10 w-full h-full object-cover"
-        src=""
+        src="/components/images/EAPSFullW.png"
       />
     </div>
     <div class="mr-4 w-full text-center sm:w-1/2 sm:text-left">
