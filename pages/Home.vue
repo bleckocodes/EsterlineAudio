@@ -1,7 +1,7 @@
 <template>
     <Hero />
     <div class="bg-gray-800 text-center text-white">
-        <div class="text-4xl font-bold pt-10">What I Do</div>
+        <div class="text-4xl font-bold">What I Do</div>
     </div>
     <section
   class="container mx-auto flex flex-col items-center px-12 py-28 sm:flex-row"

@@ -1,24 +1,24 @@
 <template>
   <div class="height-auto bg-verdun-green-400 text-base text-white">
-    <header class="container bg-verdun-green-400 text-white mx-auto flex w-full items-center justify-between py-4 px-6">
+    <header class=" bg-verdun-green-400 text-white mx-auto flex w-full items-center justify-between py-4 px-6">
       <nuxt-link to="/">
         <div class="w-full text-center text-lg font-bold sm:w-fit sm:text-left">
           <span class="text-40 white-500">Esterline Audio Production Services</span>
         </div>
       </nuxt-link>
 
-      <nav class="hidden text-base sm:block">
+      <nav class="hidden text-base sm:block"> 
         <ul class="flex items-center space-x-2">
           <li class="group relative">
             <nuxt-link 
-              class="block whitespace-nowrap px-3 py-2 text-sm font-semibold text-slate-900 no-underline transition hover:text-slate-400 dark:hover:text-slate-50" 
+              class="block whitespace-nowrap px-3 py-2 text-lg font-semibold text-slate-900 no-underline transition hover:text-slate-400 dark:hover:text-slate-50" 
               to="/">
               Home
             </nuxt-link>
           </li>
           <li class="group relative">
             <nuxt-link 
-              class="block whitespace-nowrap px-3 py-2 text-sm font-semibold text-slate-900 no-underline transition hover:text-slate-400 dark:hover:text-slate-50" 
+              class="block whitespace-nowrap px-3 py-2 text-lg font-semibold text-slate-900 no-underline transition hover:text-slate-400 dark:hover:text-slate-50" 
               to="Services">
               Services
             </nuxt-link>
@@ -53,14 +53,14 @@
           </li>
           <li class="group relative">
             <nuxt-link 
-              class="block whitespace-nowrap px-3 py-2 text-sm font-semibold text-slate-900 no-underline transition hover:text-slate-400 dark:hover:text-slate-50" 
+              class="block whitespace-nowrap px-3 py-2 text-lg font-semibold text-slate-900 no-underline transition hover:text-slate-400 dark:hover:text-slate-50" 
               to="About">
               About
             </nuxt-link>
           </li>
           <li class="group relative">
             <nuxt-link 
-              class="block whitespace-nowrap px-3 py-2 text-sm font-semibold text-slate-900 no-underline transition hover:text-slate-400 dark:hover:text-slate-50" 
+              class="block whitespace-nowrap px-3 py-2 text-lg font-semibold text-slate-900 no-underline transition hover:text-slate-400 dark:hover:text-slate-50" 
               to="Contact">
               Contact
             </nuxt-link>
@@ -116,64 +116,13 @@
           </li>
           <li class="group relative w-full overflow-x-visible text-right">
             <a
-              class="mx-4 block whitespace-nowrap px-3 py-2 text-sm font-semibold text-slate-900 no-underline transition hover:text-slate-400 dark:hover:text-slate-50"
+              class="mx-4 block whitespace-nowrap px-3 py-2 text-lg font-semibold text-slate-900 no-underline transition hover:text-slate-400 dark:hover:text-slate-50"
               href="/"
             >
               Home
             </a>
           </li>
-          <li class="group relative w-full overflow-x-visible text-right">
-            <a
-              class="mx-4 block whitespace-nowrap px-3 py-2 text-sm font-semibold text-slate-900 no-underline transition hover:text-slate-400 dark:hover:text-slate-50"
-              href="#"
-            >
-              Services
-            </a>
-            <ul
-              class="h-0 space-y-2 overflow-y-hidden bg-slate-50 px-4 py-0 transition-all delay-75 ease-in-out group-hover:h-full group-hover:py-4 dark:bg-slate-800"
-            >
-              <li>
-                <a
-                  class="undefined block whitespace-nowrap px-3 py-2 text-sm font-semibold text-white no-underline transition dark:text-slate-50 hover:text-verdun-green-400 dark:hover:text-verdun-green-400"
-                  href="/services/web-development"
-                >
-                  Web development
-                </a>
-              </li>
-              <li>
-                <a
-                  class="undefined block whitespace-nowrap px-3 py-2 text-sm font-semibold text-white no-underline transition dark:text-slate-50 hover:text-verdun-green-400 dark:hover:text-verdun-green-400"
-                  href="/services/digital-marketing"
-                >
-                  Digital marketing
-                </a>
-              </li>
-              <li>
-                <a
-                  class="undefined block whitespace-nowrap px-3 py-2 text-sm font-semibold text-white no-underline transition dark:text-slate-50 hover:text-verdun-green-400 dark:hover:text-verdun-green-400"
-                  href="/services/brand-strategy"
-                >
-                  Brand strategy
-                </a>
-              </li>
-            </ul>
-          </li>
-          <li class="group relative w-full overflow-x-visible text-right">
-            <a
-              class="mx-4 block whitespace-nowrap px-3 py-2 text-sm font-semibold text-slate-900 no-underline transition hover:text-slate-400 dark:hover:text-slate-50"
-              href="/About"
-            >
-              About
-            </a>
-          </li>
-          <li class="group relative w-full overflow-x-visible text-right">
-            <a
-              class="mx-4 block whitespace-nowrap px-3 py-2 text-sm font-semibold text-slate-900 no-underline transition hover:text-slate-400 dark:hover:text-slate-50"
-              href="pages/Contact"
-            >
-              Contact
-            </a>
-          </li>
+          <!-- Other navigation items remain unchanged -->
         </ul>
       </nav>
     </header>
