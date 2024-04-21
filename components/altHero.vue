@@ -7,7 +7,7 @@
     <img
       alt="Logo"
       class="mb-8 w-full dark:contrast-200 sm:mb-0 sm:mr-4 sm:w-1/2 z-10"
-      :src="require('./images/EAPSFullW.png')"
+      :src="require('')"
     />
 
     <div class="mr-4 w-full text-center sm:w-1/2 sm:text-left z-10">

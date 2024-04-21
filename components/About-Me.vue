@@ -4,7 +4,7 @@
         <img
           alt="Hanging out with friends"
           class="rounded-lg sm:rounded-br-[80px] sm:rounded-tl-[120px]"
-          src="C:\Users\myfri\Desktop\Nuxt\EsterlineAudio\components\images\EAPSFullW.png"
+          src=""
         />
       </div>
       <div class="mr-4 w-full text-center sm:w-1/2 sm:text-left">
