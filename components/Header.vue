@@ -80,7 +80,7 @@
       <!-- Dropdown Menu -->
       <nav
         v-show="isMobileMenuOpen"
-        class="fixed right-0 top-0 z-20 h-30 w-30 x-50 transform bg-white py-4 text-base transition dark:bg-slate-800 sm:hidden"
+        class="fixed right-0 top-0 z-20 h-30 w-30 x-50 transform bg-white py-4 text-base transition dark:bg-verdun-green-400 sm:hidden"
       >
         <ul class="flex flex-col space-y-2">
           <li class="text-right">

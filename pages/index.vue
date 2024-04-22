@@ -1,7 +1,7 @@
 <template class="bg-gray-800">
     <Hero />
     <div class="bg-gray-800 text-center text-white">
-        <div class="text-5xl font-bold pt-10 pb-10">Why You Should Work with Me</div>
+        <div class="text-5xl font-bold pt-36 pb-10">Why You Should Work with Me</div>
     </div>
     
     <section class="container mx-auto flex flex-col items-center bg-gray-800 px-12 py-28 sm:flex-row" >

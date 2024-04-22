@@ -68,21 +68,21 @@
         </li>
       </ul>
       <div class="flex flex-col space-y-3 md:flex-row md:space-x-2 md:space-y-0">
-<button class="disabled:opacity-50 disabled:cursor-not-allowed whitespace-nowrap w-full py-2 px-5 border-b border-white rounded-md shadow-sm hover:bg-white hover:text-black text-base font-medium text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white">
-          Learn More
-        </button>
-        <button class="disabled:opacity-50 disabled:cursor-not-allowed whitespace-nowrap w-full py-2 px-5 border-b border-white rounded-md shadow-sm hover:bg-white hover:text-black text-base font-medium text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white">
-          Contact Us
-        </button>
-      </div>
+  <nuxt-link to="/services" class="disabled:opacity-50 disabled:cursor-not-allowed whitespace-nowrap w-full text-center py-2 px-5 font-bolder border-b hover:bg-white hover:text-black text-base font-medium text-white rounded-md focus:outline-none">
+    Learn More
+  </nuxt-link>
+  <nuxt-link to="/contact" class="disabled:opacity-50 disabled:cursor-not-allowed whitespace-nowrap w-full text-center py-2 px-5 font-bolder border-b hover:bg-white hover:text-black text-base font-medium text-white rounded-md focus:outline-none">
+    Contact Me
+  </nuxt-link>
+</div>
     </div>
 
   
-  <img
+  <!--<img
     class="w-60 h-60 object-cover justify-right"
     src="@/components/images/EAPSFullW.png"
     alt="Logo"
-  />
+  /> -->
 
   </section>
 </template>
