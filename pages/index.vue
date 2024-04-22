@@ -6,7 +6,7 @@
     </div>
     <!--Start Content-->
 
-    <section class="flex flex-col items-center mx-36 bg-gray-800 sm:flex-row-reverse">
+    <section class="flex flex-col items-center sm:mx-36 bg-gray-800 sm:flex-row-reverse">
       <div class="rounded-md overflow-hidden mb-10 w-full h-128 sm:w-1/2 sm:h-auto sm:pl-8">
         <img
           alt="Security"
@@ -44,7 +44,7 @@
       </div>
     </section>
 
-    <section class="flex flex-col items-center mx-36 bg-gray-800 sm:flex-row">
+    <section class="flex flex-col items-center sm:mx-36 bg-gray-800 sm:flex-row">
       <div class="rounded-md overflow-hidden mb-10 w-full h-128 sm:w-1/2 sm:h-auto sm:pr-8">
         <img
           alt="Security"
@@ -82,7 +82,7 @@
       </div>
     </section>
 
-    <section class="flex flex-col items-center mx-36 bg-gray-800 sm:flex-row-reverse">
+    <section class="flex flex-col items-center sm:mx-36 bg-gray-800 sm:flex-row-reverse">
       <div class="rounded-md overflow-hidden mb-10 w-full h-128 sm:w-1/2 sm:h-auto sm:pl-8">
         <img
           alt="Security"
