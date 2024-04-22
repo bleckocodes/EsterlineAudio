@@ -19,35 +19,35 @@
   <ul class="flex items-center space-x-2">
     <li class="group relative">
       <nuxt-link 
-        class="block whitespace-nowrap px-3 py-2 text-lg font-semibold text-slate-900 no-underline transition hover:text-slate-400 dark:hover:text-slate-50" 
+        class="block whitespace-nowrap px-3 py-2 text-lg font-bold text-slate-900 no-underline transition hover:text-slate-400 dark:hover:text-slate-50" 
         to="/">
         Home
       </nuxt-link>
     </li>
     <li class="group relative">
       <nuxt-link 
-        class="block whitespace-nowrap px-3 py-2 text-lg font-semibold text-slate-900 no-underline transition hover:text-slate-400 dark:hover:text-slate-50" 
+        class="block whitespace-nowrap px-3 py-2 text-lg font-bold text-slate-900 no-underline transition hover:text-slate-400 dark:hover:text-slate-50" 
         to="MyWork">
         My Work
       </nuxt-link>
     </li>
     <li class="group relative">
       <a
-        class="block whitespace-nowrap px-3 py-2 text-lg font-semibold text-slate-900 no-underline transition hover:text-slate-400 dark:hover:text-slate-50" 
+        class="block whitespace-nowrap px-3 py-2 text-lg font-bold text-slate-900 no-underline transition hover:text-slate-400 dark:hover:text-slate-50" 
         href="/Services">
         Services
     </a>
     </li>
     <li class="group relative">
       <a 
-        class="block whitespace-nowrap px-3 py-2 text-lg font-semibold text-slate-900 no-underline transition hover:text-slate-400 dark:hover:text-slate-50" 
+        class="block whitespace-nowrap px-3 py-2 text-lg font-bold text-slate-900 no-underline transition hover:text-slate-400 dark:hover:text-slate-50" 
         href="/About">
         About
       </a>
     </li>
     <li class="group relative">
       <nuxt-link 
-        class="block whitespace-nowrap px-3 py-2 text-lg font-semibold text-slate-900 no-underline transition hover:text-slate-400 dark:hover:text-slate-50" 
+        class="block whitespace-nowrap px-3 py-2 text-lg font-bold text-slate-900 no-underline transition hover:text-slate-400 dark:hover:text-slate-50" 
         to="Contact">
         Contact
       </nuxt-link>

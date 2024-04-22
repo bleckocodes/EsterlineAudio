@@ -9,10 +9,10 @@
         class="mb-24 w-full text-center text-4xl font-extrabold dark:text-slate-50 sm:mx-auto sm:mb-20 sm:w-4/5"
       >
         <span class="text-verdun-green-300">Multiple plans</span>
-        for small and medium artists
+        for Artists & Podcasters
       </h1>
       <!-- Service 1 -->
-        <div class="flex w-full flex-col justify-between sm:mb-0 sm:w-1/2!">
+        <div class="flex w-full flex-col bg-gray-800 justify-between sm:mb-0 sm:w-1/2!">
           <div class="w-full text-center">
             <img
               alt="Service 1"
@@ -37,7 +37,7 @@
         </div>
 
         <!-- Service 2 -->
-        <div class="flex w-full flex-col justify-between sm:mb-0 sm:w-1/2!">
+        <div class="flex w-full flex-col bg-gray-800 justify-between sm:mb-0 sm:w-1/2!">
           <div class="w-full text-center">
             <img
               alt="Service 1"
@@ -62,7 +62,7 @@
 
 
         <!-- Service 3 -->
-        <div class="flex w-full flex-col justify-between sm:mb-0 sm:w-1/2!">
+        <div class="flex w-full flex-col bg-gray-800 justify-between sm:mb-0 sm:w-1/2!">
           <div class="w-full text-center">
             <img
               alt="Service 1"
@@ -87,7 +87,7 @@
 
 
         <!-- Service 4 -->
-        <div class="flex w-full flex-col justify-between sm:mb-0 sm:w-1/2!">
+        <div class="flex w-full flex-col bg-gray-800 justify-between sm:mb-0 sm:w-1/2!">
           <div class="w-full text-center">
             <img
               alt="Service 1"
@@ -114,7 +114,7 @@
 
 
         <!-- Service 5 -->
-        <div class="flex w-full flex-col justify-between sm:mb-0 sm:w-1/2!">
+        <div class="flex w-full flex-col bg-gray-800 justify-between sm:mb-0 sm:w-1/2!">
           <div class="w-full text-center">
             <img
               alt="Service 1"
@@ -143,7 +143,7 @@
 
         <!-- Heading -->
       <h1
-        class="mb-24 w-full text-center text-4xl font-extrabold dark:text-slate-50 sm:mx-auto sm:mb-20 sm:w-4/5"
+        class="mb-24 w-full text-center text-4xl bg-gray-800 font-extrabold dark:text-slate-50 sm:mx-auto sm:mb-20 sm:w-4/5"
       >
         <span class="text-verdun-green-300">Interested?</span>
 
