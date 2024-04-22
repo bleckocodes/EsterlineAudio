@@ -1,5 +1,5 @@
 <template>
-  <section class="w-fill mx-auto flex flex-col sm:flex-row h-200 items-center bg-image pt-56 pb-28 bg-image px-8"> <!--pt-40 pb-32-->
+  <section class="w-fill mx-auto flex flex-col sm:flex-row h-200 items-center bg-image pt-36 pb-20 bg-image px-8"> <!--pt-40 pb-32-->
     <!-- Image container with background -->
     <div class="mr-4 w-fit h-inherit text-left sm:w-1/2 bg-black px-5 py-5 rounded-md bg-opacity-75 text-opacity-0">
       <h1 class="mb-6 text-3xl font-bold leading-tight text-white md:text-4xl">
@@ -75,24 +75,24 @@
     Contact Me
   </nuxt-link>
 </div>
-    </div>
-
-  <!--
+    </div>   
     <img
-    class="object-cover object-center  w-full"
-    src="@/components/images/EAPSFullB.png"
-    alt="Logo"
+  class="object-cover object-center w-full"
+  src="@/components/images/EAPSFullW.png"
+  alt="Logo"
+  height="64"
+  style="max-width: 500px; max-height: 500px;"
 />
--->
   </section>
 </template>
 
 <style scoped>
 .bg-image {
-  background-image: url(@/components/images/bridge.jpg);
+  background-image: url(@/components/images/eq1.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  filter: grayscale(100%);
 }
 
 </style>
