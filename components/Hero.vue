@@ -1,13 +1,14 @@
 <template>
-  <section class="w-fill mx-auto flex flex-col sm:flex-row h-200 items-center bg-image pt-36 pb-20 bg-image px-8">
-    <!-- Image container with background -->
-    <div class="mr-4 w-fit h-inherit text-left sm:w-1/2 bg-black px-5 py-5 rounded-md bg-opacity-75 text-opacity-0">
-      <h1 class="mb-6 text-3xl font-bold leading-tight text-white md:text-4xl">
+  <section class="relative w-full mx-auto flex flex-col sm:flex-row items-center">
+    <!-- Background Image -->
+    <div class="absolute inset-0 bg-image bg-opacity-75"></div>
+    <!-- Text Content Column -->
+    <div class="relative z-10 w-full sm:w-1/2 pl-16 flex flex-col justify-center bg-black px-5 py-5 rounded-md bg-opacity-75 mt-64"> <!-- Adjust mt-20 for the desired margin top -->
+      <h1 class="mb-6 text-3xl font-bold leading-tight text-verdun-green-300 md:text-4xl">
         Welcome to Esterline Audio!
       </h1>
       <p class="mb-2 leading-relaxed text-gray-300">
-        This is my website to showcase my previous work & offer my services. I've been in the audio industry for 3 years now and have a degree in Audio Production from Northwest University where I worked on many professional level projects to hone my skills in the industry.
-      </p>
+        At Esterline Audio Production Services, I am focused on personalized service to cater to your specific audio production needs. I’m a fresh face in the audio world, eager to dedicate all my skills and energy to your project. I am excited to apply my audio engineering and artistic design experience to launch your music talent to the next level.  Your project will receive my full attention and commitment. Let’s create something great together!      </p>
       <ul class="mb-8 flex flex-col items-center space-y-1 text-gray-300 sm:items-start">
         <!-- List items here -->
       </ul>
@@ -20,24 +21,32 @@
         </nuxt-link>
       </div>
     </div>   
-    <!-- Logo Image -->
-    <img
-      class="object-cover object-center w-full mr-4 filter-green"
-      src="@/components/images/EAPSFullW.png"
-      alt="Logo"
-      height="64"
-      style="max-width: 500px; max-height: 500px;"
-    />
+    <!-- Logo Image Column -->
+    <div class="relative z-10 w-full sm:w-1/2 flex justify-center items-center">
+      <img
+        class="object-cover object-center w-full filter-green"
+        src="@/components/images/EAPSFullW.png"
+        alt="Logo"
+        height="64"
+        style="max-width: 500px; max-height: 500px;"
+      />
+    </div>
   </section>
 </template>
 
 <style scoped>
 .bg-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90vh; /* Adjust height to move the background image further down */
   background-image: url(@/components/images/Personal.jpg);
   background-position: 0% 20%; /* Positioning the image */
   background-repeat: no-repeat;
   background-size: cover;
-  filter: grayscale(100%)
+  /* Apply grayscale filter only to background image */
+  filter: grayscale(100%);
 }
 .filter-green {
   filter: brightness(150%) saturate(100%) hue-rotate(120deg); /* Adjust the filter as needed */
