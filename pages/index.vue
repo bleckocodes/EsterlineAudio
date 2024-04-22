@@ -4,7 +4,7 @@
         <div class="text-5xl font-bold pt-10 pb-10">Why You Should Work with Me</div>
     </div>
     
-    <section class="container mx-auto flex flex-col items-center px-12 py-28 sm:flex-row" >
+    <section class="container mx-auto flex flex-col items-center bg-gray-800 px-12 py-28 sm:flex-row" >
   <img
     alt="Security"
     class="mb-10 h-24 w-full pr-16 pl-16 sm:mb-0 sm:h-fit sm:w-1/2 sm:pr-24 sm:pl-0"
