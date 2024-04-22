@@ -20,8 +20,8 @@
         I have experience with the latest industry standards of mixing  and mastering audio for film, television, video.
     </p>
     <a
-      class="group relative mx-auto mt-8 inline-block font-semibold text-slate-900 underline decoration-violet-300 decoration-2 underline-offset-8 transition hover:decoration-slate-700 dark:text-slate-200 dark:hover:decoration-slate-200 sm:mx-0"
-      href="https://esterline-audio.vercel.app/Services"
+      class="group relative mx-auto mt-8 inline-block font-semibold text-slate-900 underline decoration-verdun-green decoration-2 underline-offset-8 transition hover:decoration-slate-700 dark:text-slate-200 dark:hover:decoration-slate-200 sm:mx-0"
+      href="/Services"
     >
       View My Work
       
@@ -62,11 +62,10 @@
       I have experience with the latest industry standards of mixing  and mastering audio for film, television, video.
     </p>
     <a
-      class="group relative mx-auto mt-8 inline-block font-semibold text-slate-900 underline decoration-violet-300 decoration-2 underline-offset-8 transition hover:decoration-slate-700 dark:text-slate-200 dark:hover:decoration-slate-200 sm:mx-0"
+      class="group relative mx-auto mt-8 inline-block font-semibold text-slate-900 underline decoration-verdun-green decoration-2 underline-offset-8 transition hover:decoration-slate-700 dark:text-slate-200 dark:hover:decoration-slate-200 sm:mx-0"
       href="#"
     >
-      Supported authentication
-      
+          About Me      
       <svg
         preserveAspectRatio="xMidYMid meet"
         viewBox="0 0 24 24"
@@ -123,10 +122,10 @@
       I love making music! As a musician, I have played in  various bands and ensembles throughout my life...
     </p>
     <a
-      class="group relative mx-auto mt-8 inline-block font-semibold text-slate-900 underline decoration-violet-300 decoration-2 underline-offset-8 transition hover:decoration-slate-700 dark:text-slate-200 dark:hover:decoration-slate-200 sm:mx-0"
+      class="group relative mx-auto mt-8 inline-block font-semibold text-slate-900 underline decoration-verdun-green decoration-2 underline-offset-8 transition hover:decoration-slate-700 dark:text-slate-200 dark:hover:decoration-slate-200 sm:mx-0"
       href="#"
     >
-      Supported authentication
+      About Me
       
       <svg
         preserveAspectRatio="xMidYMid meet"

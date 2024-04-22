@@ -8,65 +8,44 @@
       </nuxt-link>
 
       <nav class="hidden text-base sm:block">
-        <ul class="flex items-center space-x-2">
-          <li class="group relative">
-            <nuxt-link 
-              class="block whitespace-nowrap px-3 py-2 text-lg font-semibold text-slate-900 no-underline transition hover:text-slate-400 dark:hover:text-slate-50" 
-              to="/">
-              Home
-            </nuxt-link>
-          </li>
-          <li class="group relative">
-            <nuxt-link 
-              class="block whitespace-nowrap px-3 py-2 text-lg font-semibold text-slate-900 no-underline transition hover:text-slate-400 dark:hover:text-slate-50" 
-              to="Services">
-              Services
-            </nuxt-link>
-            <ul
-              class="invisible absolute z-30 space-y-2 rounded-lg border border-slate-50 bg-white p-4 opacity-0 shadow-xl transition-opacity delay-75 ease-in-out group-hover:visible group-hover:opacity-100 dark:border-slate-800 dark:bg-slate-900"
-            >
-              <li>
-                <a
-                  class="undefined block whitespace-nowrap px-3 py-2 text-sm font-semibold text-white no-underline transition dark:text-slate-50 hover:text-verdun-green-400 dark:hover:text-verdun-green-400"
-                  href="/services"
-                >
-                  Web development
-                </a>
-              </li>
-              <li>
-                <a
-                  class="undefined block whitespace-nowrap px-3 py-2 text-sm font-semibold text-white no-underline transition dark:text-slate-50 hover:text-verdun-green-400 dark:hover:text-verdun-green-400"
-                  href="/services"
-                >
-                  Digital marketing
-                </a>
-              </li>
-              <li>
-                <a
-                  class="undefined block whitespace-nowrap px-3 py-2 text-sm font-semibold text-white no-underline transition dark:text-slate-50 hover:text-verdun-green-400 dark:hover:text-verdun-green-400"
-                  href="/services"
-                >
-                  Brand strategy
-                </a>
-              </li>
-            </ul>
-              </li>
-                <li class="group relative">
-            <nuxt-link 
-              class="block whitespace-nowrap px-3 py-2 text-lg font-semibold text-slate-900 no-underline transition hover:text-slate-400 dark:hover:text-slate-50" 
-              to="About">
-              About
-            </nuxt-link>
-          </li>
-          <li class="group relative">
-            <nuxt-link 
-              class="block whitespace-nowrap px-3 py-2 text-lg font-semibold text-slate-900 no-underline transition hover:text-slate-400 dark:hover:text-slate-50" 
-              to="Contact">
-              Contact
-            </nuxt-link>
-          </li>
-        </ul>
-      </nav>
+  <ul class="flex items-center space-x-2">
+    <li class="group relative">
+      <nuxt-link 
+        class="block whitespace-nowrap px-3 py-2 text-lg font-semibold text-slate-900 no-underline transition hover:text-slate-400 dark:hover:text-slate-50" 
+        to="/">
+        Home
+      </nuxt-link>
+    </li>
+    <li class="group relative">
+      <nuxt-link 
+        class="block whitespace-nowrap px-3 py-2 text-lg font-semibold text-slate-900 no-underline transition hover:text-slate-400 dark:hover:text-slate-50" 
+        to="MyWork">
+        My Work
+      </nuxt-link>
+    </li>
+    <li class="group relative">
+      <a
+        class="block whitespace-nowrap px-3 py-2 text-lg font-semibold text-slate-900 no-underline transition hover:text-slate-400 dark:hover:text-slate-50" 
+        href="/Services">
+        Services
+    </a>
+    </li>
+    <li class="group relative">
+      <a 
+        class="block whitespace-nowrap px-3 py-2 text-lg font-semibold text-slate-900 no-underline transition hover:text-slate-400 dark:hover:text-slate-50" 
+        href="/About">
+        About
+      </a>
+    </li>
+    <li class="group relative">
+      <nuxt-link 
+        class="block whitespace-nowrap px-3 py-2 text-lg font-semibold text-slate-900 no-underline transition hover:text-slate-400 dark:hover:text-slate-50" 
+        to="Contact">
+        Contact
+      </nuxt-link>
+    </li>
+  </ul>
+</nav>
 
       <button
         class="block text-slate-900 hover:text-slate-400 dark:hover:text-slate-50 sm:hidden"

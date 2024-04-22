@@ -1,12 +1,9 @@
 <template>
-    <div >
-  
+    <div class="bg-gray-800 text-center text-white">
+        <div class="text-5xl font-bold pt-10 pb-10">Contact Me</div>
     </div>
-
-
-  <div class="contact-page bg-gray-800 text-white pt-10">
+  <div class="contact-page bg-gray-800 text-white pb-10">
     <div class="container mx-auto">
-      <h1 class="text-3xl font-semibold mb-6 text-center">Contact Me</h1>
       <form @submit.prevent="submitForm" class="max-w-md mx-auto">
         <div class="mb-4">
           <label for="name" class="block text-sm font-medium">Your Name</label>
