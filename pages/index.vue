@@ -5,7 +5,7 @@
   </div>
   <!--Start Content-->
 
-  <section class=" flex flex-col items-center bg-gray-800 sm:flex-row-reverse"
+  <section class=" flex flex-col items-center mx-36 bg-gray-800 sm:flex-row-reverse"
 >
 <img
   alt="Security"
@@ -44,7 +44,7 @@
   </a>
 </div>
 </section>
-  <section class=" flex flex-col items-center bg-gray-800 sm:flex-row"
+  <section class=" flex flex-col items-center mx-36 bg-gray-800 sm:flex-row"
 >
 <img
   alt="Security"
@@ -84,7 +84,7 @@
   </a>
 </div>
 </section>
-  <section class=" flex flex-col items-center bg-gray-800 sm:flex-row-reverse"
+  <section class=" flex flex-col items-center mx-36 bg-gray-800 sm:flex-row-reverse"
 >
 <img
   alt="Security"
