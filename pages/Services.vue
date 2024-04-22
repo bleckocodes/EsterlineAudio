@@ -42,7 +42,7 @@
             <img
               alt="Service 1"
               class="mx-auto mb-4 w- h-64 rounded image-size-fit invert"
-              src="@/components/images/studio.png"
+              src="@/components/images/Studio.png"
             />
             <h2
               class="mb-2 text-xl font-bold leading-tight text-verdun-green-300 md:text-xl"
