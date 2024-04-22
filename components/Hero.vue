@@ -81,7 +81,7 @@
   <img
     class="w-60 h-60 object-cover justify-right"
     src="@/components/images/EAPSFullW.png"
-    alt="background"
+    alt="Logo"
   />
 
   </section>

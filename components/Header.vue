@@ -3,7 +3,15 @@
     <header class="bg-verdun-green-400 text-white mx-auto flex w-full items-center justify-between py-4 px-6">
       <nuxt-link to="/">
         <div class="w-full text-center text-lg font-bold sm:w-fit sm:text-left">
-          <span class="text-40 white-500">Esterline Audio Production Services</span>
+          <span class="text-40 white-500">
+            
+    <img
+    class="w-30 h-16 object-cover justify-right"
+    src="@/components/images/EAPSFullB.png"
+    alt="Logo"
+    @mouseover="invertColors"
+    @mouseleave="revertColors"
+  /></span>
         </div>
       </nuxt-link>
 
@@ -46,9 +54,10 @@
     </li>
   </ul>
 </nav>
-
-      <button
-        class="block text-slate-900 hover:text-slate-400 dark:hover:text-slate-50 sm:hidden"
+<!-- Mobile Menu -->
+<button
+        @click="toggleMobileMenu"
+        class="block text-slate-700 hover:text-slate-200 dark:hover:text-slate-50 sm:hidden"
         title="Open navigation menu"
       >
         <svg
@@ -68,18 +77,21 @@
         </svg>
       </button>
 
+      <!-- Dropdown Menu -->
       <nav
-        class="fixed -right-1/2 top-0 z-20 h-full w-1/2 transform overflow-y-auto bg-white py-4 text-base transition dark:bg-slate-900 sm:hidden"
+        v-show="isMobileMenuOpen"
+        class="fixed right-0 top-0 z-20 h-30 w-30 x-50 transform bg-white py-4 text-base transition dark:bg-slate-800 sm:hidden"
       >
         <ul class="flex flex-col space-y-2">
           <li class="text-right">
             <button
-              class="px-6 py-2 text-slate-900 hover:text-slate-400 dark:hover:text-slate-50"
+              @click="toggleMobileMenu"
+              class="px-6 py-2 text-slate-300 hover:text-slate-400 dark:hover:text-slate-50"
             >
               <svg
                 preserveAspectRatio="xMidYMid meet"
                 viewBox="0 0 24 24"
-               width="1.2em"
+                width="1.2em"
                 height="1.2em"
               >
                 <path
@@ -95,17 +107,90 @@
           </li>
           <li class="group relative w-full overflow-x-visible text-right">
             <nuxt-link
-              class="mx-4 block whitespace-nowrap px-3 py-2 text-lg font-semibold text-slate-900 no-underline transition hover:text-slate-400 dark:hover:text-slate-50"
+              @click="toggleMobileMenu"
+              class="mx-4 block whitespace-nowrap px-3 py-2 text-lg font-semibold text-white font-bolder no-underline transition hover:text-slate-400 dark:hover:text-slate-50"
               to="/"
             >
               Home
             </nuxt-link>
           </li>
+            <!--MyWork-->
+            <li class="group relative w-full overflow-x-visible text-right">
+            <nuxt-link
+              @click="toggleMobileMenu"
+              class="mx-4 block whitespace-nowrap px-3 py-2 text-lg font-semibold text-white font-bolder no-underline transition hover:text-slate-400 dark:hover:text-slate-50"
+              to="MyWork"
+            >
+              My Work
+            </nuxt-link>
+          </li>
+          <!--Services-->
+            <li class="group relative w-full overflow-x-visible text-right">
+            <nuxt-link
+              @click="toggleMobileMenu"
+              class="mx-4 block whitespace-nowrap px-3 py-2 text-lg font-semibold text-white font-bolder no-underline transition hover:text-slate-400 dark:hover:text-slate-50"
+              to="Services""
+            >
+              Services
+            </nuxt-link>
+          </li>
+          <!--About-->
+            <li class="group relative w-full overflow-x-visible text-right">
+            <nuxt-link
+              @click="toggleMobileMenu"
+              class="mx-4 block whitespace-nowrap px-3 py-2 text-lg font-semibold text-white font-bolder no-underline transition hover:text-slate-400 dark:hover:text-slate-50"
+              to="About"
+            >
+              About
+            </nuxt-link>
+          </li>
+          <!--Contact-->
+            <li class="group relative w-full overflow-x-visible text-right">
+            <nuxt-link
+              @click="toggleMobileMenu"
+              class="mx-4 block whitespace-nowrap px-3 py-2 text-lg font-semibold text-white font-bolder no-underline transition hover:text-slate-400 dark:hover:text-slate-50"
+              to="Contact"
+            >
+              Contact
+            </nuxt-link>
+          </li>
+          <!-- Add other menu items as needed -->
         </ul>
       </nav>
     </header>
   </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      isMobileMenuOpen: false
+    };
+  },
+  methods: {
+    toggleMobileMenu() {
+      this.isMobileMenuOpen = !this.isMobileMenuOpen;
+    },
+    invertColors(event) {
+      event.target.style.filter = "invert(100%)";
+    },
+    revertColors(event) {
+      event.target.style.filter = "none";
+    }
+  },
+  computed: {
+    isMobile() {
+      if (process.client) {
+        // Check if screen width is less than 768 pixels (typical mobile breakpoint)
+        return window.innerWidth < 768;
+      }
+      // Default to false for SSR
+      return false;
+    }
+  }
+};
+</script>
 
 <style>
   body.dark {
