@@ -4,9 +4,9 @@
         <div class="text-5xl font-bold pt-36 pb-10">Why You Should Work with Me</div>
     </div>
     
-    <section class="container mx-auto flex flex-col items-center bg-gray-800 px-12 py-28 sm:flex-row" >
+    <section class="mx-auto flex flex-col items-center bg-gray-800 py-28 sm:flex-row" >
   <img
-    alt="Security"
+    alt="Inndustry Experience"
     class="mb-10 h-24 w-full pr-16 pl-16 sm:mb-0 sm:h-fit sm:w-1/2 sm:pr-24 sm:pl-0"
     src="@/components/images/PhotoWorking.jpg"
   />
@@ -16,7 +16,7 @@
     >
       Industry Experience
     </h2>
-    <p class="leading-relaxedtext-slate-400">
+    <p class="leading-relaxed text-slate-300">
         I have experience with the latest industry standards of mixing  and mastering audio for film, television, video.
     </p>
     <a
@@ -45,7 +45,7 @@
   </div>
 </section>
 <section
-  class="container mx-auto flex flex-col bg-gray-800 items-center px-12 py-28 sm:flex-row-reverse"
+  class="mx-auto flex flex-col bg-gray-800 items-center py-28 sm:flex-row-reverse"
 >
   <img
     alt="Security"
@@ -86,12 +86,12 @@
   </div>
 </section>
 <section
-  class="container mx-auto flex flex-col bg-gray-800 items-center px-12 py-28 sm:flex-row"
+  class="mx-auto flex flex-col bg-gray-800 items-center py-28 sm:flex-row"
 >
   <img
     alt="Security"
     class="mb-10 h-24 w-full pr-16 pl-16 sm:mb-0 sm:h-fit sm:w-1/2 sm:pr-24 sm:pl-0"
-    src=""
+    src="@/components/images/Personal.jpg"
   />
   <div class="mr-4 w-full text-center sm:w-1/2 sm:text-left">
     <h2
@@ -99,13 +99,13 @@
     >
     Personalized Service for Every Project
     </h2>
-    <p class="leading-relaxed text-slate-400">
+    <p class="leading-relaxed text-slate-300">
         I'm a fresh face in the audio world, eager to dedicate all my energy to your project. With a focus on personalized service, I'm here to cater to your specific needs. While I'm building my portfolio, your project will receive my full attention and commitment. Let's create something great together!
     </p>
   </div>
 </section>
 <section
-  class="container mx-auto flex flex-col items-center bg-gray-800 px-12 py-28 sm:flex-row-reverse"
+  class="mx-auto flex flex-col items-center bg-gray-800 py-28 sm:flex-row-reverse"
 >
   <img
     alt="Security"
@@ -118,7 +118,7 @@
     >
       I'm Passionate About Music
     </h2>
-    <p class="leading-relaxed text-slate-400">
+    <p class="leading-relaxed text-slate-300">
       I love making music! As a musician, I have played in  various bands and ensembles throughout my life...
     </p>
     <a

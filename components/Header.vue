@@ -7,7 +7,7 @@
             
     <img
     class="w-30 h-16 object-cover justify-right"
-    src="@/components/images/EAPSFullB.png"
+    src="@/components/images/EAPSTextB.png"
     alt="Logo"
     @mouseover="invertColors"
     @mouseleave="revertColors"
@@ -19,35 +19,35 @@
   <ul class="flex items-center space-x-2">
     <li class="group relative">
       <nuxt-link 
-        class="block whitespace-nowrap px-3 py-2 text-lg font-bold text-slate-900 no-underline transition hover:text-slate-400 dark:hover:text-slate-50" 
+        class="block whitespace-nowrap px-3 py-2 text-lg font-bold text-slate-900 no-underline transition hover:text-slate-50" 
         to="/">
         Home
       </nuxt-link>
     </li>
     <li class="group relative">
       <nuxt-link 
-        class="block whitespace-nowrap px-3 py-2 text-lg font-bold text-slate-900 no-underline transition hover:text-slate-400 dark:hover:text-slate-50" 
+        class="block whitespace-nowrap px-3 py-2 text-lg font-bold text-slate-900 no-underline transition hover:text-slate-50" 
         to="MyWork">
         My Work
       </nuxt-link>
     </li>
     <li class="group relative">
       <a
-        class="block whitespace-nowrap px-3 py-2 text-lg font-bold text-slate-900 no-underline transition hover:text-slate-400 dark:hover:text-slate-50" 
+        class="block whitespace-nowrap px-3 py-2 text-lg font-bold text-slate-900 no-underline transition hover:text-slate-50" 
         href="/Services">
         Services
     </a>
     </li>
     <li class="group relative">
       <a 
-        class="block whitespace-nowrap px-3 py-2 text-lg font-bold text-slate-900 no-underline transition hover:text-slate-400 dark:hover:text-slate-50" 
+        class="block whitespace-nowrap px-3 py-2 text-lg font-bold text-slate-900 no-underline transition hover:text-slate-50" 
         href="/About">
         About
       </a>
     </li>
     <li class="group relative">
       <nuxt-link 
-        class="block whitespace-nowrap px-3 py-2 text-lg font-bold text-slate-900 no-underline transition hover:text-slate-400 dark:hover:text-slate-50" 
+        class="block whitespace-nowrap px-3 py-2 text-lg font-bold text-slate-900 no-underline transition hover:text-slate-50" 
         to="Contact">
         Contact
       </nuxt-link>
@@ -57,7 +57,7 @@
 <!-- Mobile Menu -->
 <button
         @click="toggleMobileMenu"
-        class="block text-slate-700 hover:text-slate-200 dark:hover:text-slate-50 sm:hidden"
+        class="block text-slate-700 hover:text-slate-50 sm:hidden"
         title="Open navigation menu"
       >
         <svg
@@ -80,13 +80,13 @@
       <!-- Dropdown Menu -->
       <nav
         v-show="isMobileMenuOpen"
-        class="fixed right-0 top-0 z-20 h-30 w-30 x-50 transform bg-white py-4 text-base transition dark:bg-verdun-green-400 sm:hidden"
+        class="fixed right-0 top-0 z-20 h-30 w-30 x-50 transform py-4 text-base transition bg-verdun-green-400 sm:hidden"
       >
         <ul class="flex flex-col space-y-2">
           <li class="text-right">
             <button
               @click="toggleMobileMenu"
-              class="px-6 py-2 text-slate-300 hover:text-slate-400 dark:hover:text-slate-50"
+              class="px-6 py-2 text-slate-300 hover:text-slate-50"
             >
               <svg
                 preserveAspectRatio="xMidYMid meet"
@@ -108,7 +108,7 @@
           <li class="group relative w-full overflow-x-visible text-right">
             <nuxt-link
               @click="toggleMobileMenu"
-              class="mx-4 block whitespace-nowrap px-3 py-2 text-lg font-semibold text-white font-bolder no-underline transition hover:text-slate-400 dark:hover:text-slate-50"
+              class="mx-4 block whitespace-nowrap px-3 py-2 text-lg font-semibold text-white font-bolder no-underline transition hover:text-slate-50"
               to="/"
             >
               Home
@@ -118,7 +118,7 @@
             <li class="group relative w-full overflow-x-visible text-right">
             <nuxt-link
               @click="toggleMobileMenu"
-              class="mx-4 block whitespace-nowrap px-3 py-2 text-lg font-semibold text-white font-bolder no-underline transition hover:text-slate-400 dark:hover:text-slate-50"
+              class="mx-4 block whitespace-nowrap px-3 py-2 text-lg font-semibold text-white font-bolder no-underline transition hover:text-slate-50"
               to="MyWork"
             >
               My Work
@@ -128,8 +128,8 @@
             <li class="group relative w-full overflow-x-visible text-right">
             <nuxt-link
               @click="toggleMobileMenu"
-              class="mx-4 block whitespace-nowrap px-3 py-2 text-lg font-semibold text-white font-bolder no-underline transition hover:text-slate-400 dark:hover:text-slate-50"
-              to="Services""
+              class="mx-4 block whitespace-nowrap px-3 py-2 text-lg font-semibold text-white font-bolder no-underline transition hover:text-slate-50"
+              to="Services"
             >
               Services
             </nuxt-link>
@@ -138,7 +138,7 @@
             <li class="group relative w-full overflow-x-visible text-right">
             <nuxt-link
               @click="toggleMobileMenu"
-              class="mx-4 block whitespace-nowrap px-3 py-2 text-lg font-semibold text-white font-bolder no-underline transition hover:text-slate-400 dark:hover:text-slate-50"
+              class="mx-4 block whitespace-nowrap px-3 py-2 text-lg font-semibold text-white font-bolder no-underline transition hover:text-slate-50"
               to="About"
             >
               About
@@ -148,7 +148,7 @@
             <li class="group relative w-full overflow-x-visible text-right">
             <nuxt-link
               @click="toggleMobileMenu"
-              class="mx-4 block whitespace-nowrap px-3 py-2 text-lg font-semibold text-white font-bolder no-underline transition hover:text-slate-400 dark:hover:text-slate-50"
+              class="mx-4 block whitespace-nowrap px-3 py-2 text-lg font-semibold text-white font-bolder no-underline transition hover:text-slate-50"
               to="Contact"
             >
               Contact

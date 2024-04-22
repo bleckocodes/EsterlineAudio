@@ -1,5 +1,5 @@
 <template>
-  <section class="w-fill mx-auto flex flex-col sm:flex-row h-200 items-center bg-image pt-40 pb-32 bg-image px-8">
+  <section class="w-fill mx-auto flex flex-col sm:flex-row h-200 items-center bg-image pt-60 pb-32 bg-image px-8"> <!--pt-40 pb-32-->
     <!-- Image container with background -->
     <div class="mr-4 w-fit h-inherit text-left sm:w-1/2 bg-black px-5 py-5 rounded-md bg-opacity-75 text-opacity-0">
       <h1 class="mb-6 text-3xl font-bold leading-tight text-white md:text-4xl">
@@ -77,21 +77,22 @@
 </div>
     </div>
 
-  
-  <!--<img
-    class="w-60 h-60 object-cover justify-right"
-    src="@/components/images/EAPSFullW.png"
+  <!--
+    <img
+    class="object-cover object-center  w-full"
+    src="@/components/images/EAPSFullB.png"
     alt="Logo"
-  /> -->
-
+/>
+-->
   </section>
 </template>
 
 <style scoped>
 .bg-image {
-  background-image: url(@/components/images/bridge.jpg);
+  background-image: url(@/components/images/logo.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 </style>
