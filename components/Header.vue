@@ -1,5 +1,5 @@
 <template>
-  <div class="sticky top-0 height-auto bg-verdun-green-400 text-base text-white">
+  <div class="sticky top-0 z-50 height-auto bg-verdun-green-400 text-base text-white">
     <header class="bg-verdun-green-400 text-white mx-auto flex w-full items-center justify-between py-4 px-6">
       <nuxt-link to="/">
         <div class="w-full text-center text-lg font-bold sm:w-fit sm:text-left">

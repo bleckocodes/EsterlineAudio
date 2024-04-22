@@ -1,15 +1,16 @@
 <template>
   <section class="relative w-full mx-auto flex flex-col sm:flex-row items-center">
     <!-- Background Image -->
-    <div class="absolute inset-0 bg-image bg-opacity-75"></div>
+    <div class="absolute inset-0 bg-image bg-opacity-75 z-0"></div>
     <!-- Text Content Column -->
     <div class="relative z-10 w-full sm:w-1/2 pl-16 flex flex-col justify-center bg-black px-5 py-5 rounded-md bg-opacity-75 mt-64"> <!-- Adjust mt-20 for the desired margin top -->
       <h1 class="mb-6 text-3xl font-bold leading-tight text-verdun-green-300 md:text-4xl">
         Welcome to Esterline Audio!
       </h1>
       <p class="mb-2 leading-relaxed text-gray-300">
-        At Esterline Audio Production Services, I am focused on personalized service to cater to your specific audio production needs. I’m a fresh face in the audio world, eager to dedicate all my skills and energy to your project. I am excited to apply my audio engineering and artistic design experience to launch your music talent to the next level.  Your project will receive my full attention and commitment. Let’s create something great together!      </p>
-      <ul class="mb-8 flex flex-col items-center space-y-1 text-gray-300 sm:items-start">
+        At Esterline Audio Production Services, I am focused on personalized service to cater to your specific audio production needs. I’m eager to dedicate all my skills and energy in audio engineering and artistic design to your project and launch your music talent to the next level. Let’s create something great together!
+      </p>
+       <ul class="mb-8 flex flex-col items-center space-y-1 text-gray-300 sm:items-start">
         <!-- List items here -->
       </ul>
       <div class="flex flex-col space-y-3 md:flex-row md:space-x-2 md:space-y-0">

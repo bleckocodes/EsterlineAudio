@@ -19,8 +19,7 @@
     Industry Experience
   </h2>
   <p class="leading-relaxed text-slate-300">
-    I have extensive experience with the latest industry standards of mixing and mastering audio for film, television, video.
-  </p>
+    My education in Audio Production from Northwest University and three years of experience has prepared me to be a professional engineer in live sound and music industry production projects. I am skilled at providing sound editing, mixing, sound design, production audio, and live audio. I am proficient in recording equipment and software, understand acoustic theory, and can mix tracks. My experience in live sound recording in studios and ability to produce live audio events on stage at venues equips me to benefit you, as I can produce audio works with professional quality sound. Your project will receive my full attention and commitment.  </p>
   <a
     class="group relative mx-auto mt-8 inline-block font-semibold underline decoration-verdun-green decoration-2 underline-offset-8 transition text-slate-200 hover:decoration-slate-200 sm:mx-0"
     href="/MyWork"
