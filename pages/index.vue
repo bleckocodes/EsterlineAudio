@@ -45,7 +45,7 @@
   </div>
 </section>
 <section
-  class="container mx-auto flex flex-col items-center px-12 py-28 sm:flex-row-reverse"
+  class="container mx-auto flex flex-col bg-gray-800 items-center px-12 py-28 sm:flex-row-reverse"
 >
   <img
     alt="Security"
@@ -86,7 +86,7 @@
   </div>
 </section>
 <section
-  class="container mx-auto flex flex-col items-center px-12 py-28 sm:flex-row"
+  class="container mx-auto flex flex-col bg-gray-800 items-center px-12 py-28 sm:flex-row"
 >
   <img
     alt="Security"
@@ -105,7 +105,7 @@
   </div>
 </section>
 <section
-  class="container mx-auto flex flex-col items-center px-12 py-28 sm:flex-row-reverse"
+  class="container mx-auto flex flex-col items-center bg-gray-800 px-12 py-28 sm:flex-row-reverse"
 >
   <img
     alt="Security"
