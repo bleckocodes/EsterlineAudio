@@ -12,15 +12,15 @@
   />
   <div class="mr-4 w-full text-center sm:w-1/2 sm:text-left">
     <h2
-      class="mb-4 text-3xl font-bold leading-tight dark:text-slate-50 md:text-4xl"
+      class="mb-4 text-3xl font-bold leading-tight text-slate-50 md:text-4xl"
     >
       Industry Experience
     </h2>
-    <p class="leading-relaxed text-slate-700 dark:text-slate-400">
+    <p class="leading-relaxedtext-slate-400">
         I have experience with the latest industry standards of mixing  and mastering audio for film, television, video.
     </p>
     <a
-      class="group relative mx-auto mt-8 inline-block font-semibold text-slate-900 underline decoration-verdun-green decoration-2 underline-offset-8 transition hover:decoration-slate-700 dark:text-slate-200 dark:hover:decoration-slate-200 sm:mx-0"
+      class="group relative mx-auto mt-8 inline-block font-semibold underline decoration-verdun-green decoration-2 underline-offset-8 transition text-slate-200 hover:decoration-slate-200 sm:mx-0"
       href="/Services"
     >
       View My Work
@@ -54,15 +54,15 @@
   />
   <div class="mr-4 w-full text-center sm:w-1/2 sm:text-left">
     <h2
-      class="mb-4 text-3xl font-bold leading-tight dark:text-slate-50 md:text-4xl"
+      class="mb-4 text-3xl font-bold leading-tight text-slate-50 md:text-4xl"
     >
       Industry Standard Experience
     </h2>
-    <p class="leading-relaxed text-slate-700 dark:text-slate-400">
+    <p class="leading-relaxed text-slate-300">
       I have experience with the latest industry standards of mixing  and mastering audio for film, television, video.
     </p>
     <a
-      class="group relative mx-auto mt-8 inline-block font-semibold text-slate-900 underline decoration-verdun-green decoration-2 underline-offset-8 transition hover:decoration-slate-700 dark:text-slate-200 dark:hover:decoration-slate-200 sm:mx-0"
+      class="group relative mx-auto mt-8 inline-block font-semibold underline decoration-verdun-green decoration-2 underline-offset-8 transition text-slate-200 hover:decoration-slate-200 sm:mx-0"
       href="#"
     >
           About Me      
@@ -95,11 +95,11 @@
   />
   <div class="mr-4 w-full text-center sm:w-1/2 sm:text-left">
     <h2
-      class="mb-4 text-3xl font-bold leading-tight dark:text-slate-50 md:text-4xl"
+      class="mb-4 text-3xl font-bold leading-tight text-slate-50 md:text-4xl"
     >
     Personalized Service for Every Project
     </h2>
-    <p class="leading-relaxed text-slate-700 dark:text-slate-400">
+    <p class="leading-relaxed text-slate-400">
         I'm a fresh face in the audio world, eager to dedicate all my energy to your project. With a focus on personalized service, I'm here to cater to your specific needs. While I'm building my portfolio, your project will receive my full attention and commitment. Let's create something great together!
     </p>
   </div>
@@ -114,15 +114,15 @@
   />
   <div class="mr-4 w-full text-center sm:w-1/2 sm:text-left">
     <h2
-      class="mb-4 text-3xl font-bold leading-tight dark:text-slate-50 md:text-4xl"
+      class="mb-4 text-3xl font-bold leading-tight text-slate-50 md:text-4xl"
     >
       I'm Passionate About Music
     </h2>
-    <p class="leading-relaxed text-slate-700 dark:text-slate-400">
+    <p class="leading-relaxed text-slate-400">
       I love making music! As a musician, I have played in  various bands and ensembles throughout my life...
     </p>
     <a
-      class="group relative mx-auto mt-8 inline-block font-semibold text-slate-900 underline decoration-verdun-green decoration-2 underline-offset-8 transition hover:decoration-slate-700 dark:text-slate-200 dark:hover:decoration-slate-200 sm:mx-0"
+      class="group relative mx-auto mt-8 inline-block font-semibold underline decoration-verdun-green decoration-2 underline-offset-8 transition  text-slate-200 hover:decoration-slate-200 sm:mx-0"
       href="#"
     >
       About Me

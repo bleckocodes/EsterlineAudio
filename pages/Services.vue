@@ -6,7 +6,7 @@
     <section class="container mx-auto bg-gray-800 px-12 py-28">
       <!-- Heading -->
       <h1
-        class="mb-24 w-full text-center text-4xl font-extrabold dark:text-slate-50 sm:mx-auto sm:mb-20 sm:w-4/5"
+        class="mb-24 w-full text-center text-4xl font-extrabold text-slate-50 sm:mx-auto sm:mb-20 sm:w-4/5"
       >
         <span class="text-verdun-green-300">Multiple plans</span>
         for Artists & Podcasters
@@ -27,10 +27,10 @@
             <h3 class="text-gray-500 font-bold">
                 $40.00 
             </h3>
-            <p class="mt-4 leading-relaxed text-slate-700 dark:text-slate-400">
+            <p class="mt-4 leading-relaxed text-slate-400">
               3-5 minute
               song mix, with a professional sound design.
-              <div class="mb-36 leading-relaxed text-slate-700 dark:text-slate-400" >
+              <div class="mb-36 leading-relaxed text-slate-400" >
                  Up to 16 channels of audio can be added.</div>
             </p>
           </div>
@@ -52,9 +52,9 @@
             <h3 class="text-gray-500 font-bold">
                 $50.00 per every three minutes of mixed audio.
             </h3>
-            <p class="mt-4 leading-relaxed text-slate-700 dark:text-slate-400">
+            <p class="mt-4 leading-relaxed text-slate-400">
                 Anything from ten minutes to an hour of finished product               song mix, with a professional sound design.
-              <div class="mb-36 leading-relaxed text-slate-700 dark:text-slate-400" >
+              <div class="mb-36 leading-relaxed text-slate-400" >
                  Up to 16 channels of audio per song.</div>
             </p>
           </div>
@@ -77,9 +77,9 @@
             <h3 class="text-gray-500 font-bold">
                 $150.00 per hour as well as the rate of the studio. 
             </h3>
-            <p class="mt-4 leading-relaxed text-slate-700 dark:text-slate-400">
+            <p class="mt-4 leading-relaxed text-slate-400">
                 Recording engineer services include: planning, paperwork, routing,
-                <div class="mb-36 leading-relaxed text-slate-700 dark:text-slate-400" >
+                <div class="mb-36 leading-relaxed text-slate-400" >
                 microphone, placement expertise, etc.</div>
             </p>
           </div>
@@ -102,11 +102,11 @@
             <h3 class="text-gray-500 font-bold">
                 $50.00 per hour
             </h3>
-            <p class="mt-4 leading-relaxed text-slate-700 dark:text-slate-400">
+            <p class="mt-4 leading-relaxed text-slate-400">
                 Behringer C-1 
-              <div class=" leading-relaxed text-slate-700 dark:text-slate-400" >
+              <div class=" leading-relaxed text-slate-400" >
                 2 Lavalier microphones</div>
-            <div class="mb-36 leading-relaxed text-slate-700 dark:text-slate-400" >
+            <div class="mb-36 leading-relaxed text-slate-400" >
                 Zoom recorder</div>
             </p>
           </div>
@@ -130,10 +130,10 @@
             <h3 class="text-gray-500 font-bold">
                 $50.00 per episode.
             </h3>
-            <p class="mt-4 leading-relaxed text-slate-700 dark:text-slate-400">
+            <p class="mt-4 leading-relaxed text-slate-400">
               3-5 minute
               Thirty to fifty minutes.               
-              <div class="mb-36 leading-relaxed text-slate-700 dark:text-slate-400" >
+              <div class="mb-36 leading-relaxedtext-slate-400" >
                 One to three voices</div>
             </p>
           </div>
@@ -143,7 +143,7 @@
 
         <!-- Heading -->
       <h1
-        class="mb-24 w-full text-center text-4xl bg-gray-800 font-extrabold dark:text-slate-50 sm:mx-auto sm:mb-20 sm:w-4/5"
+        class="mb-24 w-full text-center text-4xl bg-gray-800 font-extrabold text-slate-50 sm:mx-auto sm:mb-20 sm:w-4/5"
       >
         <span class="text-verdun-green-300">Interested?</span>
 
@@ -151,7 +151,7 @@
       
         <!--Contact me button-->
         <a
-  class="contact-me-button group relative mx-auto mt-8 font-semibold text-slate-900 underline decoration-verdun-green decoration-2 underline-offset-8 transition hover:decoration-slate-700 dark:text-slate-200 dark:hover:decoration-slate-200 sm:mx-0"
+  class="contact-me-button group relative mx-auto mt-8 font-semibold underline decoration-verdun-green decoration-2 underline-offset-8 transition text-slate-200 hover:decoration-slate-200 sm:mx-0"
   href="/Contact"
 >
     Get in Contact
