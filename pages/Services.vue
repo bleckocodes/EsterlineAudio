@@ -17,7 +17,7 @@
             <img
               alt="Service 1"
               class="mx-auto mb-4 w- h-64 rounded image-size-fit invert"
-              src="/components/images/mixing.png"
+              src="@/components/images/mixing.png"
             />
             <h2
               class="mb-2 text-xl font-bold leading-tight text-verdun-green-300 md:text-xl"
@@ -42,7 +42,7 @@
             <img
               alt="Service 1"
               class="mx-auto mb-4 w- h-64 rounded image-size-fit invert"
-              src="/components/images/studio.png"
+              src="@/components/images/studio.png"
             />
             <h2
               class="mb-2 text-xl font-bold leading-tight text-verdun-green-300 md:text-xl"
@@ -67,7 +67,7 @@
             <img
               alt="Service 1"
               class="mx-auto mb-4 w- h-64 rounded image-size-fit invert"
-              src="/components/images/studio2.png"
+              src="@/components/images/studio2.png"
             />
             <h2
               class="mb-2 text-xl font-bold leading-tight text-verdun-green-300 md:text-xl"
@@ -92,7 +92,7 @@
             <img
               alt="Service 1"
               class="mx-auto mb-4 w- h-64 rounded image-size-fill invert "
-              src="/components/images/podcast.png"
+              src="@/components/images/podcast.png"
             />
             <h2
               class="mb-2 text-xl font-bold leading-tight text-verdun-green-300 md:text-xl"
@@ -119,7 +119,7 @@
             <img
               alt="Service 1"
               class="mx-auto mb-4 w- h-64 rounded image-size-fit invert"
-              src="/components/images/mixtable.png"
+              src="@/components/images/mixtable.png"
               
             />
             <h2
