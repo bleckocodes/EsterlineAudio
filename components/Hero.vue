@@ -89,7 +89,7 @@
 
 <style scoped>
 .bg-image {
-  background-image: url(@/components/images/logo.jpg);
+  background-image: url(@/components/images/bridge.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
