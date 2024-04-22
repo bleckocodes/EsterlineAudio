@@ -3,7 +3,7 @@
       <div class="text-5xl font-bold pt-10 pb-10">Services</div>
     </div>
     <!-- Services -->
-    <section class="container mx-auto px-12 py-28">
+    <section class="container mx-auto bg-gray-800 px-12 py-28">
       <!-- Heading -->
       <h1
         class="mb-24 w-full text-center text-4xl font-extrabold dark:text-slate-50 sm:mx-auto sm:mb-20 sm:w-4/5"
