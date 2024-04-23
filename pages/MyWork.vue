@@ -6,6 +6,32 @@
       <div class="text-center text-white text-2xl font-semibold pt-10 pb-10">
         To showcase my work, please click the links to my YouTube videos, Instagram posts, and Spotify song lists.
       </div>
+        <div class="container p-4 pb-10">
+            <!-- Section: Social media -->
+            <section class="mb-4 flex justify-center">
+            
+                <!-- Instagram -->
+                <a class="social-icon px-16 " href="https://www.instagram.com/esterline_audio/">
+                <i class="fab fa-instagram"></i>
+                </a>
+            
+                <!-- Linkedin -->
+                <a class="social-icon px-16" href="https://www.linkedin.com/in/isaiah-esterline-8683b8227/">
+                <i class="fab fa-linkedin-in"></i>
+                </a>
+            
+                <!-- Spotify -->
+                <a class="social-icon px-16" href="https://open.spotify.com/artist/2ojRNU6OcociN3jZrhkL0D?si=g15Mfo6YRLa9uZnI6gegpQ">
+                <i class="fab fa-spotify"></i>
+                </a>
+
+                <!-- Youtube -->
+                <a class="social-icon px-16" href="https://www.youtube.com/@spunkwaterlake-np2ee">
+                <i class="fab fa-youtube"></i>
+                </a>
+            </section>
+            <!-- Section: Social media -->
+        </div>
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex pb-36 items-center flex-col ">
         <!-- Embedded YouTube Video -->
         <div class="mb-8">
@@ -92,3 +118,12 @@
       </div>
     </div>
   </template>
+
+
+
+<style>
+.social-icon {
+    font-size: 96px; /* Adjust size as needed */
+    color: #8AB661; /* Verdun-green color */
+  }
+</style>
