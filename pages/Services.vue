@@ -1,4 +1,5 @@
 `<template>
+    <div class="bg-gray-800"> 
     <div class="bg-gray-800 text-center text-white">
       <div class="text-5xl font-bold pt-10 pb-10">Services</div>
     </div>
@@ -179,7 +180,8 @@
 
 
    </section>
-  </template>
+    </div>
+</template>
 
 <style>
 .contact-me-button {
