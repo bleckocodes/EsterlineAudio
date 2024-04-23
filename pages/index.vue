@@ -6,7 +6,7 @@
     </div>
     <!--Start Content-->
 
-    <section class="flex flex-col items-center sm:mx-36 pl-10 pb-36 drop-shadow-2xl sm:bg-slate-700 rounded-[64px] sm:flex-row-reverse">
+    <section class="flex flex-col items-center sm:mx-36 pl-10 m-20 drop-shadow-2xl sm:bg-slate-700 rounded-[64px] sm:flex-row-reverse">
         <div class="w-full h-128 sm:w-1/2 sm:h-auto sm:pl-8">
           <div class=" sm:rounded-r-[64px] overflow-hidden">
             <img
