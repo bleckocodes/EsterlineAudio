@@ -18,7 +18,7 @@
           <textarea v-model="formData.message" id="message" name="message" rows="4" placeholder="Enter your message" class="mt-1 px-4 py-2 w-full border rounded-md bg-gray-800 text-white"></textarea>
         </div>
         <div class="text-center">
-          <button type="submit" class="px-6 py-3 bg-gray-600 text-white rounded-md hover:bg-verdun-green transition duration-300">Send Message</button>
+          <button type="submit" class="px-6 py-3 bg-gray-600 text-white rounded-md hover:bg-verdun-green-300 transition duration-300">Send Message</button>
         </div>
       </form>
     </div>

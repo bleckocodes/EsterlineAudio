@@ -23,6 +23,11 @@
           <a class="social-icon" href="https://open.spotify.com/artist/2ojRNU6OcociN3jZrhkL0D?si=g15Mfo6YRLa9uZnI6gegpQ">
             <i class="fab fa-spotify"></i>
           </a>
+
+          <!-- Youtube -->
+          <a class="social-icon" href="https://www.youtube.com/@spunkwaterlake-np2ee">
+            <i class="fab fa-youtube"></i>
+          </a>
         </section>
         <!-- Section: Social media -->
       </div>
