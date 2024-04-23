@@ -2,11 +2,11 @@
   <div class="bg-gray-800">
     <Hero />
     <div class="text-center text-white">
-      <div class="text-5xl font-bold pt-36 pb-40">Why You Should Work with Me</div>
+      <div class="text-5xl font-bold pt-36"></div>
     </div>
     <!--Start Content-->
 
-    <section class="flex flex-col items-center sm:mx-36 bg-gray-800 sm:flex-row-reverse">
+    <section class="flex flex-col items-center sm:mx-36  sm:flex-row-reverse">
       <div class="rounded-md overflow-hidden mb-10 w-full h-128 sm:w-1/2 sm:h-auto sm:pl-8">
         <img
           alt="Security"
@@ -16,7 +16,7 @@
       </div>
       <div class="mr-4 w-full text-center sm:w-1/2 sm:text-left">
         <h2 class="mb-4 text-3xl font-bold leading-tight text-slate-50 md:text-4xl">Industry Experience</h2>
-        <p class="leading-relaxed text-slate-300">
+        <p class="leading-relaxed text-slate-300 ">
           My education in Audio Production from Northwest University and three years of experience has prepared me to be a professional engineer in live sound and music industry production projects. I am skilled at providing sound editing, mixing, sound design, production audio, and live audio. I am proficient in recording equipment and software, understand acoustic theory, and can mix tracks. My experience in live sound recording in studios and ability to produce live audio events on stage at venues equips me to benefit you, as I can produce audio works with professional quality sound. Your project will receive my full attention and commitment.
         </p>
         <a
@@ -44,7 +44,7 @@
       </div>
     </section>
 
-    <section class="flex flex-col items-center sm:mx-36 bg-gray-800 sm:flex-row">
+    <section class="flex flex-col items-center sm:mx-36  sm:flex-row">
       <div class="rounded-md overflow-hidden mb-10 w-full h-128 sm:w-1/2 sm:h-auto sm:pr-8">
         <img
           alt="Security"
@@ -82,7 +82,7 @@
       </div>
     </section>
 
-    <section class="flex flex-col items-center sm:mx-36 bg-gray-800 sm:flex-row-reverse">
+    <section class="flex flex-col items-center mx-36  sm:flex-row-reverse">
       <div class="rounded-md overflow-hidden mb-10 w-full h-128 sm:w-1/2 sm:h-auto sm:pl-8">
         <img
           alt="Security"
@@ -121,3 +121,5 @@
     </section>
   </div>
 </template>
+
+

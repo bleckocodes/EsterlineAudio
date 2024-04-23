@@ -8,7 +8,7 @@
         Welcome to Esterline Audio!
       </h1>
       <p class="mb-2 leading-relaxed text-gray-300">
-        At Esterline Audio Production Services, I am focused on personalized service to cater to your specific audio production needs. I’m eager to dedicate all my skills and energy in audio engineering and artistic design to your project and launch your music talent to the next level. Let’s create something great together!
+        I'm Isaiah and at Esterline Audio Production Services, I am focused on personalized service to cater to your specific audio production needs. I’m eager to dedicate all my skills and energy in audio engineering and artistic design to your project and launch your music talent to the next level. Let’s create something great together!
       </p>
        <ul class="mb-8 flex flex-col items-center space-y-1 text-gray-300 sm:items-start">
         <!-- List items here -->
