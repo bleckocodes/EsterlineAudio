@@ -19,7 +19,7 @@
   <div class="mr-4 w-full text-center sm:w-1/2 sm:text-left">
     <h2 class="mb-4 text-3xl font-bold leading-tight text-verdun-green-300 md:text-4xl">Industry Experience</h2>
     <p class="leading-relaxed text-slate-300 text-lg">
-      I am a professional Audio Production Engineer specializing in live sound and music production projects. I provide sound editing and design, mixing, production audio, and live audio. I am skilled at recording equipment and software, understand acoustic theory, and can produce audio works with professional quality sound. Your project will receive my full attention and commitment.    </p>
+      I am a professional Audio Production Engineer specializing in live sound and music production projects. I provide sound editing and design, mixing, production audio, and live audio. I am skilled at recording equipment and software, understand acoustic theory, and can produce audio works with professional quality sound. Your project will receive my full attention and commitment.</p>
     <a
       class="group relative mx-auto text-xl mt-8 inline-block font-semibold underline decoration-verdun-green-300 decoration-2 underline-offset-8 transition text-slate-200 hover:decoration-slate-200 sm:mx-0"
       href="/MyWork"
