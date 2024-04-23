@@ -2,14 +2,14 @@
     <div class="bg-gray-800"> <!-- Update -->
       <div class="sm:mx-36">
         <div class="bg-gray-800 text-center text-white">
-          <div class="text-5xl font-bold pt-10 pb-10">About</div>
+          <div class="text-5xl font-bold pt-10 pb-10">Let me introduce myself...</div>
         </div>
         
         <div class="about-me-container bg-gray-800">
           <div class="about-me-content">
             
             <div class="about-me-text mr-12">
-              <h2 class="about-me-title font-bold text-verdun-green-300">Let me introduce myself...</h2>
+              <h2 class="about-me-title font-bold text-verdun-green-300">I'm Isaiah Esterline</h2>
                 <p class="about-me-description text-slate-400 pb-5">
                 I found my calling in the world of audio. I am an Audio Engineer, currently based in Kirkland, Washington, with a passion for music and sound. My journey into audio engineering began with a love for music and a curiosity about how it is created.
                 </p>

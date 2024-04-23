@@ -8,7 +8,7 @@
       <h1
         class="mb-24 w-full text-center text-4xl font-extrabold text-slate-50 sm:mx-auto sm:mb-20 sm:w-4/5"
       >
-        <span class="text-verdun-green-300">Multiple plans</span>
+        <span class="text-verdun-green-300">Multiple Plans</span>
         for Artists & Podcasters
       </h1>
       <!-- Service 1 -->

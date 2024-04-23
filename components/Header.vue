@@ -27,7 +27,7 @@
     <li class="group relative">
       <nuxt-link 
         class="block whitespace-nowrap px-3 py-2 text-lg font-bold text-slate-900 no-underline transition hover:text-slate-50" 
-        to="MyWork">
+        href="/MyWork">
         My Work
       </nuxt-link>
     </li>
