@@ -3,8 +3,10 @@
       <div class="bg-gray-800 text-center text-white">
         <div class="text-5xl font-bold pt-10 pb-10">My Work</div>
       </div>
-      <div class="text-center text-white text-2xl font-semibold pt-10 pb-10">
-        Please click the green links here to my Instagram, LinkedIn, Spotify and YouTube that showcase my work. Also, listen to the featured songs below.
+      <div class="text-center text-white text-2xl font-semibold pt-10">
+        Please click the green links here to my Instagram, LinkedIn, Spotify and YouTube that showcase my work.
+      <div class="text-center text-white text-2xl font-semibold pb-10">
+        Also, listen to the featured songs below.
       </div>
         <div class="container p-4 pb-10">
             <!-- Section: Social media -->
@@ -115,6 +117,7 @@
         </audio>
 
       </div>
+    </div>
     </div>
   </template>
 
