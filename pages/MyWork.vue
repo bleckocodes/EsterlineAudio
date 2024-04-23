@@ -44,28 +44,28 @@
 
         <!--Audio File-->
         <p class="pt-16 pb-6 font-bold text-white">Dark Wave</p>
-        <audio controls>
+        <audio controls controlsList="nodownload">
             <source src="@/components/audio/Darkwave 1.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
 
         <!--Audio File-->
         <p class="pt-16 pb-6 font-bold text-white">Escaping West</p>
-        <audio controls>
+        <audio controls controlsList="nodownload">
             <source src="@/components/audio/DolbyA.escapingwest_11.29.23.mp3" type="audio/mp3">
             Your browser does not support the audio element.
         </audio>
 
         <!--Audio File-->
         <p class="pt-16 pb-6 font-bold text-white">Heffalump Rise</p>
-        <audio controls>
+        <audio controls controlsList="nodownload">
             <source src="@/components/audio/Heffalump Rise 1.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
 
         <!--Audio File-->
         <p class="pt-16 pb-6 font-bold text-white">In My Bones</p>
-        <audio controls>
+        <audio controls controlsList="nodownload">
             <source src="@/components/audio/In My Bones DEC 8.mp3" type="audio/mp3">
             Your browser does not support the audio element.
         </audio>
@@ -73,7 +73,7 @@
        
         <!--Audio File-->
         <p class="pt-16 pb-6 font-bold text-white">Lead Acetate</p>
-        <audio controls>
+        <audio controls controlsList="nodownload">
             <source src="@/components/audio/Lead Acetate Final.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
@@ -81,35 +81,35 @@
 
         <!--Audio File-->
         <p class="pt-16 pb-6 font-bold text-white">Mood Music</p>
-        <audio controls>
+        <audio controls controlsList="nodownload">
             <source src="@/components/audio/Mood Music 1.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
 
         <!--Audio File-->
         <p class="pt-16 pb-6 font-bold text-white">Own Way to Boogie</p>
-        <audio controls>
+        <audio controls controlsList="nodownload">
             <source src="@/components/audio/OwnWayToBoogie_StereoMix_1.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
 
         <!--Audio File-->
         <p class="pt-16 pb-6 font-bold text-white">Peaches</p>
-        <audio controls>
+        <audio controls controlsList="nodownload">
             <source src="@/components/audio/Peaches 2.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
 
         <!--Audio File-->
         <p class="pt-16 pb-6 font-bold text-white">Perfume</p>
-        <audio controls>
+        <audio controls controlsList="nodownload">
             <source src="@/components/audio/Perfume Add.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
 
         <!--Audio File-->
         <p class="pt-16 pb-6 font-bold text-white">Poor Tom</p>
-        <audio controls>
+        <audio controls controlsList="nodownload">
             <source src="@/components/audio/Poor Tom .wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
