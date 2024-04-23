@@ -1,4 +1,4 @@
-<template class="bg-gray-800">
+<template class="min-h-screen bg-gray-800">
   <div class="min-h-screen bg-gray-800">
     <Hero />
     <div class="text-center text-white">

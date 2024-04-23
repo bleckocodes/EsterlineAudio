@@ -25,11 +25,11 @@
       </nuxt-link>
     </li>
     <li class="group relative">
-      <nuxt-link 
+      <a 
         class="block whitespace-nowrap px-3 py-2 text-lg font-bold text-slate-900 no-underline transition hover:text-slate-50" 
         href="/MyWork">
         My Work
-      </nuxt-link>
+      </a>
     </li>
     <li class="group relative">
       <a
