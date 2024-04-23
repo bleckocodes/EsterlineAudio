@@ -7,13 +7,88 @@
         To showcase my work, please click the links to my YouTube videos, Instagram posts, and Spotify song lists.
       </div>
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex pb-36 items-center flex-col ">
-        <!-- Embedded YouTube Videos -->
+        <!-- Embedded YouTube Video -->
         <div class="mb-8">
           <iframe width="560" height="315" src="https://www.youtube.com/embed/rxJjjyezZEE" frameborder="0" allowfullscreen></iframe>
         </div>
+        
+        <!--Embedded YouTube Video-->
         <div>
           <iframe width="560" height="315" src="https://www.youtube.com/embed/Bq2dYxushZY" frameborder="0" allowfullscreen></iframe>
         </div>
+
+        <!--Audio File-->
+        <p class="pt-16 pb-6 font-bold text-white">Dark Wave</p>
+        <audio controls>
+            <source src="@/components/audio/Darkwave 1.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+
+        <!--Audio File-->
+        <p class="pt-16 pb-6 font-bold text-white">Escaping West</p>
+        <audio controls>
+            <source src="@/components/audio/DolbyA.escapingwest_11.29.23.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+
+        <!--Audio File-->
+        <p class="pt-16 pb-6 font-bold text-white">Heffalump Rise</p>
+        <audio controls>
+            <source src="@/components/audio/Heffalump Rise 1.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+
+        <!--Audio File-->
+        <p class="pt-16 pb-6 font-bold text-white">In My Bones</p>
+        <audio controls>
+            <source src="@/components/audio/In My Bones DEC 8.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+
+       
+        <!--Audio File-->
+        <p class="pt-16 pb-6 font-bold text-white">Lead Acetate</p>
+        <audio controls>
+            <source src="@/components/audio/Lead Acetate Final.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+
+
+        <!--Audio File-->
+        <p class="pt-16 pb-6 font-bold text-white">Mood Music</p>
+        <audio controls>
+            <source src="@/components/audio/Mood Music 1.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+
+        <!--Audio File-->
+        <p class="pt-16 pb-6 font-bold text-white">Own Way to Boogie</p>
+        <audio controls>
+            <source src="@/components/audio/OwnWayToBoogie_StereoMix_1.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+
+        <!--Audio File-->
+        <p class="pt-16 pb-6 font-bold text-white">Peaches</p>
+        <audio controls>
+            <source src="@/components/audio/Peaches 2.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+
+        <!--Audio File-->
+        <p class="pt-16 pb-6 font-bold text-white">Perfume</p>
+        <audio controls>
+            <source src="@/components/audio/Perfume Add.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+
+        <!--Audio File-->
+        <p class="pt-16 pb-6 font-bold text-white">Poor Tom</p>
+        <audio controls>
+            <source src="@/components/audio/Poor Tom .wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+
       </div>
     </div>
   </template>
