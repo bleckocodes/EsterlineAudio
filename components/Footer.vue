@@ -1,10 +1,52 @@
 <template>
    <!-- Top Vertical spacing -->
   
-   <footer class="bg-gray-900 text-center text-white p-5">
+   <footer class="bg-gray-900 flex flex-col items-center text-center text-white p-5">
       
-    <div class="my-20 bg-gray-900 "></div>
-      <!-- Grid container -->
+    <div class=" bg-gray-900 "></div>
+              <div class="container p-4 pb-0">
+                <!--page footer nav-->
+                <ul class="flex flex-row justify-center space-x-2 pb-16">
+                  <li class="group relative">
+                    <nuxt-link 
+                      class="block whitespace-nowrap px-3 py-2 text-lg font-bold text-slate-400 no-underline transition hover:text-slate-50" 
+                      to="/">
+                      Home
+                    </nuxt-link>
+                  </li>
+                  <li class="group relative">
+                    <a 
+                      class="block whitespace-nowrap px-3 py-2 text-lg font-bold text-slate-400 no-underline transition hover:text-slate-50" 
+                      href="/MyWork">
+                      My Work
+                    </a>
+                  </li>
+                  <li class="group relative">
+                    <a
+                      class="block whitespace-nowrap px-3 py-2 text-lg font-bold text-slate-400 no-underline transition hover:text-slate-50" 
+                      href="/Services">
+                      Services
+                  </a>
+                  </li>
+                  <li class="group relative">
+                    <a 
+                      class="block whitespace-nowrap px-3 py-2 text-lg font-bold text-slate-400 no-underline transition hover:text-slate-50" 
+                      href="/About">
+                      About
+                    </a>
+                  </li>
+                  <li class="group relative">
+                    <nuxt-link 
+                      class="block whitespace-nowrap px-3 py-2 text-lg font-bold text-slate-400 no-underline transition hover:text-slate-50" 
+                      to="Contact">
+                      Contact
+                    </nuxt-link>
+                  </li>
+                </ul>
+            </div>
+
+    
+    <!-- Grid container -->
       <div class="container p-4 pb-0">
         <!-- Section: Social media -->
         <section class="mb-4 flex justify-center">
@@ -70,7 +112,14 @@
     width: 5%; /* Adjust as needed */
     height: auto; /* Maintain aspect ratio */
     margin: 0 5px; /* Add spacing between icons */
+    font-size: 28px; /* Adjust size as needed */
+    color: #94a3b8; /* slate-400 color */
+    
   }
+
+  .social-icon:hover {
+  color: #d2d6dc; /* slate-50 color */
+}
   
   /* Add vertical spacing */
   .my-4 {
