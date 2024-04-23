@@ -4,7 +4,7 @@
         <div class="text-5xl font-bold pt-10 pb-10">My Work</div>
       </div>
       <div class="text-center text-white text-2xl font-semibold pt-10 pb-10">
-        To showcase my work, please click the links to my YouTube videos, Instagram posts, and Spotify song lists.
+        Please click the green links here to my Instagram, LinkedIn, Spotify and YouTube that showcase my work. Also, listen to the featured songs below.
       </div>
         <div class="container p-4 pb-10">
             <!-- Section: Social media -->
