@@ -47,15 +47,17 @@
             <h2
               class="mb-2 text-xl font-bold leading-tight text-verdun-green-300 md:text-xl"
             >
-            EP through album mixing 
+            Extended Play Through Album Mixing 
             </h2>
             <h3 class="text-gray-500 font-bold">
                 $50.00 per every three minutes of mixed audio.
             </h3>
             <p class="mt-4 leading-relaxed text-slate-400">
-                Anything from ten minutes to an hour of finished product               song mix, with a professional sound design.
-              <div class="mb-36 leading-relaxed text-slate-400" >
+                An extended play (EP) is a musical recording that contains more tracks than a single but fewer than an album.              <div class=" leading-relaxed text-slate-400" >
                  Up to 16 channels of audio per song.</div>
+                <div class="mb-36 leading-relaxed text-slate-400" >
+                    Anything from ten minutes to an hour of finished product song mix, with a professional sound design.</div>
+                 
             </p>
           </div>
         </div>
@@ -103,8 +105,10 @@
                 $50.00 per hour
             </h3>
             <p class="mt-4 leading-relaxed text-slate-400">
+                My equipment includes:</p>
+            <p class=" leading-relaxed text-slate-400">
                 Behringer C-1 
-              <div class=" leading-relaxed text-slate-400" >
+            <div class=" leading-relaxed text-slate-400" >
                 2 Lavalier microphones</div>
             <div class="mb-36 leading-relaxed text-slate-400" >
                 Zoom recorder</div>
@@ -133,7 +137,7 @@
             <p class="mt-4 leading-relaxed text-slate-400">
               3-5 minute
               Thirty to fifty minutes.               
-              <div class="mb-36 leading-relaxedtext-slate-400" >
+              <div class="mb-36 leading-relaxed text-slate-400" >
                 One to three voices</div>
             </p>
           </div>
@@ -154,7 +158,7 @@
   class="contact-me-button group relative mx-auto mt-8 font-semibold underline decoration-verdun-green decoration-2 underline-offset-8 transition text-slate-200 hover:decoration-slate-200 sm:mx-0"
   href="/Contact"
 >
-    Get in Contact
+    Contact Me
   <svg
     preserveAspectRatio="xMidYMid meet"
     viewBox="0 0 24 24"
