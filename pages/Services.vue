@@ -191,3 +191,14 @@
     width: 200px;
   }
 </style>
+
+
+<script setup lang="ts">
+useHead({
+  title: 'Services',
+  meta: [
+    { name: 'description', content: 'Esterline Audio Services Page.' }
+  ],
+  script: [ { innerHTML: 'console.log(\'Welcome to the Services Page\')' } ]
+})
+</script>

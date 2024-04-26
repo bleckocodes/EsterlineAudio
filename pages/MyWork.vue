@@ -146,3 +146,14 @@
 
 
 </style>
+
+
+<script setup lang="ts">
+useHead({
+  title: 'My Work',
+  meta: [
+    { name: 'description', content: 'Esterline Audio My Work Page.' }
+  ],
+  script: [ { innerHTML: 'console.log(\'Welcome to the My Work Page\')' } ]
+})
+</script>

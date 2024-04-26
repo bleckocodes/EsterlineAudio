@@ -107,3 +107,14 @@
   </div>
 </section>
 </template>
+
+
+<script setup lang="ts">
+useHead({
+  title: 'Home',
+  meta: [
+    { name: 'description', content: 'Esterline Audio Home Page.' }
+  ],
+  script: [ { innerHTML: 'console.log(\'Welcome to the Home Page\')' } ]
+})
+</script>

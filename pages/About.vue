@@ -1,4 +1,4 @@
-<template>
+<template> ``
     <div class="bg-gray-800"> <!-- Update -->
       <div class="sm:mx-36">
         <div class="bg-gray-800 text-center text-white">
@@ -79,7 +79,7 @@
 useHead({
   title: 'About',
   meta: [
-    { name: 'description', content: 'Esterline Audio Homepage.' }
+    { name: 'description', content: 'Esterline Audio About Page.' }
   ],
   script: [ { innerHTML: 'console.log(\'Welcome to the About Page\')' } ]
 })

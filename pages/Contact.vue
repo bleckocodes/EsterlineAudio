@@ -49,6 +49,16 @@ export default {
     }
   }
 };
+
+
+useHead({
+  title: 'Contact',
+  meta: [
+    { name: 'description', content: 'Esterline Audio Contact Page.' }
+  ],
+  script: [ { innerHTML: 'console.log(\'Welcome to the Contact Page\')' } ]
+})
+
 </script>
 
 <style scoped>
