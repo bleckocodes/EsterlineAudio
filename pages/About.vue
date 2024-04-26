@@ -73,3 +73,14 @@
     }
   
   </style>
+
+
+<script setup lang="ts">
+useHead({
+  title: 'About',
+  meta: [
+    { name: 'description', content: 'Esterline Audio Homepage.' }
+  ],
+  script: [ { innerHTML: 'console.log(\'Welcome to the About Page\')' } ]
+})
+</script>
