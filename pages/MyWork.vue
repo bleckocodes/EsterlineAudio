@@ -1,48 +1,49 @@
 <template>
-    <div class="min-h-screen bg-gray-800">
-      <div class="bg-gray-800 text-center text-white">
-        <div class="text-5xl font-bold pt-10 pb-10">My Work</div>
+  <div class="min-h-screen bg-gray-800">
+    <div class="bg-gray-800 text-center text-white">
+      <div class="text-5xl font-bold pt-10 pb-10">My Work</div>
+    </div>
+    <div class="text-center text-white text-2xl font-semibold pt-10">
+      Please click the green links here to my Instagram, LinkedIn, Spotify, and YouTube that showcase my work.
+    </div>
+    <div class="text-center text-white text-2xl font-semibold pb-10">
+      Also, listen to the featured songs below.
+    </div>
+    <div class="container p-4 pb-10">
+      <!-- Section: Social media -->
+      <section class="mb-4 flex justify-center flex-wrap">
+        <!-- Instagram large -->
+        <a class="social-icon instagram extra-large px-24 mb-4" href="https://www.instagram.com/esterline_audio/">
+          <i class="fab fa-instagram"></i>
+        </a>
+
+        <!-- Linkedin large-->
+        <a class="social-icon linkedin extra-large px-24 mb-4" href="https://www.linkedin.com/in/isaiah-esterline-8683b8227/">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+
+        <!-- Spotify large-->
+        <a class="social-icon spotify extra-large px-24 mb-4" href="https://open.spotify.com/artist/2ojRNU6OcociN3jZrhkL0D?si=g15Mfo6YRLa9uZnI6gegpQ">
+          <i class="fab fa-spotify"></i>
+        </a>
+
+        <!-- Youtube large-->
+        <a class="social-icon youtube extra-large px-24 mb-4" href="https://www.youtube.com/@spunkwaterlake-np2ee">
+          <i class="fab fa-youtube"></i>
+        </a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex pb-36 items-center flex-col">
+      <!-- Embedded YouTube Video -->
+      <div class="mb-8 w-full max-w-md">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/rxJjjyezZEE" frameborder="0" allowfullscreen></iframe>
       </div>
-      <div class="text-center text-white text-2xl font-semibold pt-10">
-        Please click the green links here to my Instagram, LinkedIn, Spotify and YouTube that showcase my work.
-      <div class="text-center text-white text-2xl font-semibold pb-10">
-        Also, listen to the featured songs below.
+
+      <!--Embedded YouTube Video-->
+      <div class="mb-8 w-full max-w-md">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/Bq2dYxushZY" frameborder="0" allowfullscreen></iframe>
       </div>
-        <div class="container p-4 pb-10">
-            <!-- Section: Social media -->
-            <section class="mb-4 flex justify-center">
-                <!-- Instagram large -->
-                <a class="social-icon instagram extra-large px-24" href="https://www.instagram.com/esterline_audio/">
-                    <i class="fab fa-instagram"></i>
-                </a>
-
-                <!-- Linkedin large-->
-                <a class="social-icon linkedin extra-large px-24" href="https://www.linkedin.com/in/isaiah-esterline-8683b8227/">
-                    <i class="fab fa-linkedin-in"></i>
-                </a>
-
-                <!-- Spotify large-->
-                <a class="social-icon spotify extra-large px-24" href="https://open.spotify.com/artist/2ojRNU6OcociN3jZrhkL0D?si=g15Mfo6YRLa9uZnI6gegpQ">
-                    <i class="fab fa-spotify"></i>
-                </a>
-
-                <!-- Youtube large-->
-                <a class="social-icon youtube extra-large px-24" href="https://www.youtube.com/@spunkwaterlake-np2ee">
-                    <i class="fab fa-youtube"></i>
-                </a>
-            </section>
-            <!-- Section: Social media -->
-        </div>
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex pb-36 items-center flex-col ">
-        <!-- Embedded YouTube Video -->
-        <div class="mb-8">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/rxJjjyezZEE" frameborder="0" allowfullscreen></iframe>
-        </div>
-        
-        <!--Embedded YouTube Video-->
-        <div>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/Bq2dYxushZY" frameborder="0" allowfullscreen></iframe>
-        </div>
 
         <!--Audio File-->
         <p class="pt-16 pb-6 font-bold text-white">Dark Wave</p>
@@ -118,42 +119,38 @@
 
       </div>
     </div>
-    </div>
   </template>
 
 
 
 <style>
-.social-icon.large {
-  font-size: 69px; /* Adjust size for large icons */
-  color: #8AB661; /* Verdun-green color */
-}
+  .social-icon.large {
+    font-size: 69px; /* Adjust size for large icons */
+    color: #8AB661; /* Verdun-green color */
+  }
 
-.social-icon.medium {
-  font-size: 69px; /* Adjust size for medium icons */
-  color: #8AB661; /* Change color for medium icons */
-}
+  .social-icon.medium {
+    font-size: 69px; /* Adjust size for medium icons */
+    color: #8AB661; /* Change color for medium icons */
+  }
 
-.social-icon.small {
-  font-size: 69px; /* Adjust size for small icons */
-  color: #8AB661; /* Change color for small icons */
-}
+  .social-icon.small {
+    font-size: 69px; /* Adjust size for small icons */
+    color: #8AB661; /* Change color for small icons */
+  }
 
-.social-icon.extra-large {
-  font-size: 69px; /* Adjust size for extra large icons */
-  color: #8AB661; /* Change color for extra large icons */
-}
-
-
+  .social-icon.extra-large {
+    font-size: 69px; /* Adjust size for extra large icons */
+    color: #8AB661; /* Change color for extra large icons */
+  }
 </style>
 
-
 <script setup lang="ts">
-useHead({
-  title: 'My Work',
-  meta: [
-    { name: 'description', content: 'Esterline Audio My Work Page.' }
-  ],
-  script: [ { innerHTML: 'console.log(\'Welcome to the My Work Page\')' } ]
-})
+  useHead({
+    title: 'My Work',
+    meta: [
+      { name: 'description', content: 'Esterline Audio My Work Page.' }
+    ],
+    script: [{ innerHTML: 'console.log(\'Welcome to the My Work Page\')' }]
+  })
 </script>
